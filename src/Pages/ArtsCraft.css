@@ -1,0 +1,709 @@
+/* =========================================
+   MAIN PAGE
+========================================= */
+
+.arts-craft-page {
+  width: 100%;
+  min-height: 100vh;
+
+  background: #1b100c;
+  color: #f4eadf;
+
+  overflow-x: hidden;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.craft-hero {
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+
+  background-image: url(
+    "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=1200&q=85"
+  );
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+
+/* =========================================
+   HERO OVERLAY
+========================================= */
+
+.craft-hero-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(20, 10, 7, 0.92) 0%,
+      rgba(20, 10, 7, 0.70) 40%,
+      rgba(20, 10, 7, 0.25) 75%,
+      rgba(20, 10, 7, 0.35) 100%
+    );
+
+  z-index: 1;
+}
+
+
+/* =========================================
+   HERO CONTENT
+========================================= */
+
+.craft-hero-content {
+  position: relative;
+
+  z-index: 2;
+
+  width: min(1100px, 85%);
+
+  margin-left: 8%;
+
+  padding-top: 2rem;
+}
+
+
+.craft-eyebrow {
+  display: block;
+
+  margin-bottom: 25px;
+
+  font-size: 13px;
+
+  letter-spacing: 5px;
+
+  color: #d39436;
+
+  font-weight: 500;
+}
+
+
+/* =========================================
+   HERO TITLE
+========================================= */
+
+.craft-hero h1 {
+  margin: 0;
+
+  font-size: clamp(80px, 9vw, 150px);
+
+  line-height: 0.85;
+
+  font-weight: 400;
+
+  letter-spacing: -5px;
+
+  color: #f7eee5;
+}
+
+
+.craft-hero h1 i {
+  color: #d39436;
+
+  font-family: Georgia, serif;
+
+  font-weight: 400;
+}
+
+
+/* =========================================
+   HERO DESCRIPTION
+========================================= */
+
+.craft-hero-content p {
+  max-width: 620px;
+
+  margin-top: 45px;
+
+  font-size: 18px;
+
+  line-height: 1.7;
+
+  color: rgba(244, 234, 223, 0.72);
+}
+
+
+/* =========================================
+   EXPLORE BUTTON
+========================================= */
+
+.craft-scroll-button {
+  margin-top: 45px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 25px;
+
+  background: transparent;
+
+  border: none;
+
+  color: #d39436;
+
+  font-size: 13px;
+
+  letter-spacing: 4px;
+
+  cursor: pointer;
+
+  padding: 0;
+}
+
+
+.craft-arrow {
+  width: 45px;
+  height: 45px;
+
+  border: 1px solid rgba(211, 148, 54, 0.7);
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 20px;
+
+  transition: 0.3s ease;
+}
+
+
+.craft-scroll-button:hover .craft-arrow {
+  transform: translateY(5px);
+}
+
+
+/* =========================================
+   HERO BOTTOM
+========================================= */
+
+.craft-hero-bottom {
+  position: absolute;
+
+  z-index: 3;
+
+  left: 8%;
+  right: 8%;
+
+  bottom: 35px;
+
+  display: flex;
+
+  gap: 70px;
+
+  padding-top: 20px;
+
+  border-top: 1px solid rgba(211, 148, 54, 0.45);
+}
+
+
+.craft-hero-bottom span {
+  font-size: 11px;
+
+  letter-spacing: 5px;
+
+  color: rgba(244, 234, 223, 0.55);
+}
+
+
+/* =========================================
+   HOME BUTTON
+========================================= */
+
+.craft-home-link {
+  position: absolute;
+
+  top: 35px;
+  left: 8%;
+
+  z-index: 10;
+
+  color: rgba(244, 234, 223, 0.8);
+
+  text-decoration: none;
+
+  font-size: 11px;
+
+  letter-spacing: 4px;
+
+  padding: 12px 18px;
+
+  border: 1px solid rgba(211, 148, 54, 0.45);
+
+  transition:
+    color 0.3s ease,
+    background 0.3s ease,
+    border-color 0.3s ease;
+}
+
+
+.craft-home-link:hover {
+  color: #1b100c;
+
+  background: #d39436;
+
+  border-color: #d39436;
+}
+
+
+/* =========================================
+   STATE SECTION
+========================================= */
+
+.craft-states-section {
+  width: 100%;
+
+  padding: 140px 8% 100px;
+
+  background: #1b100c;
+}
+
+
+/* =========================================
+   INTRO
+========================================= */
+
+.craft-intro {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-end;
+
+  margin-bottom: 90px;
+}
+
+
+.craft-heading > span {
+  color: #d39436;
+
+  font-size: 12px;
+
+  letter-spacing: 5px;
+}
+
+
+.craft-heading h2 {
+  margin: 25px 0;
+
+  font-size: clamp(55px, 6vw, 90px);
+
+  line-height: 0.95;
+
+  font-weight: 400;
+
+  letter-spacing: -3px;
+}
+
+
+.craft-heading h2 i {
+  color: #d39436;
+
+  font-family: Georgia, serif;
+}
+
+
+.craft-heading p {
+  max-width: 600px;
+
+  color: rgba(244, 234, 223, 0.65);
+
+  font-size: 17px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   SCROLL INDICATOR
+========================================= */
+
+.craft-scroll-indicator {
+  display: flex;
+
+  align-items: center;
+
+  gap: 20px;
+
+  color: #d39436;
+
+  font-size: 10px;
+
+  letter-spacing: 4px;
+}
+
+
+.craft-scroll-line {
+  width: 80px;
+
+  height: 1px;
+
+  background: #d39436;
+}
+
+
+/* =========================================
+   CARDS
+========================================= */
+
+.craft-cards {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 25px;
+}
+
+
+.craft-card {
+  position: relative;
+
+  height: 520px;
+
+  display: block;
+
+  overflow: hidden;
+
+  text-decoration: none;
+
+  color: #f4eadf;
+
+  background: #261610;
+}
+
+
+.craft-card-image {
+  position: absolute;
+
+  inset: 0;
+
+  background-size: cover;
+
+  background-position: center;
+
+  transition: transform 0.6s ease;
+}
+
+
+.craft-card:hover .craft-card-image {
+  transform: scale(1.06);
+}
+
+
+.craft-card-content {
+  position: absolute;
+
+  inset: 0;
+
+  padding: 30px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+
+.craft-card-top {
+  display: flex;
+
+  justify-content: space-between;
+
+  font-size: 10px;
+
+  letter-spacing: 3px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.craft-card-bottom h3 {
+  margin: 0 0 10px;
+
+  font-size: 40px;
+
+  font-weight: 400;
+}
+
+
+.craft-card-bottom p {
+  margin: 0 0 25px;
+
+  font-size: 14px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.craft-card-link {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+  font-size: 11px;
+
+  letter-spacing: 3px;
+
+  color: #d39436;
+}
+
+
+.craft-card-link span {
+  font-size: 18px;
+}
+
+
+/* =========================================
+   STATEMENT
+========================================= */
+
+.craft-statement {
+  margin-top: 130px;
+
+  text-align: center;
+}
+
+
+.craft-statement > span {
+  font-size: 11px;
+
+  letter-spacing: 5px;
+
+  color: #d39436;
+}
+
+
+.craft-statement p {
+  margin: 30px auto;
+
+  max-width: 800px;
+
+  font-size: clamp(30px, 4vw, 55px);
+
+  line-height: 1.15;
+
+  font-weight: 300;
+}
+
+
+.craft-statement p i {
+  color: #d39436;
+
+  font-family: Georgia, serif;
+}
+
+
+.craft-statement-line {
+  width: 100px;
+
+  height: 1px;
+
+  background: #d39436;
+
+  margin: 40px auto 0;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.craft-footer {
+  min-height: 550px;
+
+  padding: 120px 8%;
+
+  background: #120a07;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+
+.craft-footer > span {
+  color: #d39436;
+
+  font-size: 11px;
+
+  letter-spacing: 6px;
+}
+
+
+.craft-footer h2 {
+  margin: 25px 0;
+
+  font-size: clamp(60px, 8vw, 120px);
+
+  line-height: 0.9;
+
+  font-weight: 400;
+}
+
+
+.craft-footer h2 i {
+  color: #d39436;
+
+  font-family: Georgia, serif;
+}
+
+
+.craft-footer p {
+  color: rgba(244, 234, 223, 0.55);
+
+  font-size: 17px;
+}
+
+
+/* =========================================
+   PAGE OPENING TRANSITION
+========================================= */
+
+.page-wrapper {
+  width: 100%;
+  min-height: 100vh;
+
+  will-change: opacity, transform;
+
+  transition:
+    opacity 0.65s ease,
+    transform 0.65s ease;
+}
+
+
+.page-hidden {
+  opacity: 0;
+
+  transform: translateY(25px);
+}
+
+
+.page-visible {
+  opacity: 1;
+
+  transform: translateY(0);
+}
+
+
+/* =========================================
+   RESPONSIVE — TABLET
+========================================= */
+
+@media (max-width: 900px) {
+
+  .craft-hero-content {
+    margin-left: 6%;
+
+    width: 88%;
+  }
+
+
+  .craft-hero h1 {
+    font-size: 80px;
+  }
+
+
+  .craft-intro {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 40px;
+  }
+
+
+  .craft-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+/* =========================================
+   RESPONSIVE — MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  .craft-hero {
+    min-height: 100svh;
+
+    height: 100svh;
+
+    background-position: center;
+  }
+
+
+  .craft-hero-content {
+    margin-left: 7%;
+  }
+
+
+  .craft-hero h1 {
+    font-size: 65px;
+
+    letter-spacing: -3px;
+  }
+
+
+  .craft-hero-content p {
+    font-size: 15px;
+
+    max-width: 90%;
+  }
+
+
+  .craft-hero-bottom {
+    left: 7%;
+
+    right: 7%;
+
+    gap: 20px;
+  }
+
+
+  .craft-hero-bottom span {
+    font-size: 8px;
+
+    letter-spacing: 2px;
+  }
+
+
+  .craft-states-section {
+    padding: 90px 7%;
+  }
+
+
+  .craft-cards {
+    grid-template-columns: 1fr;
+  }
+
+
+  .craft-card {
+    height: 450px;
+  }
+
+}

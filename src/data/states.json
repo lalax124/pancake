@@ -1,0 +1,3955 @@
+{
+  "_meta": {
+    "title": "Indian Heritage - State Cultural Dataset",
+    "version": "1.0",
+    "coverage": "28 Indian states",
+    "note": "This is a structured project dataset. For production/publication, verify individual claims against authoritative state tourism, Ministry of Culture, museum, UNESCO or academic sources.",
+    "recommended_ai_rule": "Use only supplied data as factual context; distinguish folklore/tradition from verified history; avoid stereotyping communities."
+  },
+  "andhra-pradesh": {
+    "name": "Andhra Pradesh",
+    "identity": {
+      "region": "South India",
+      "capital": "Amaravati",
+      "languages": [
+        "Telugu",
+        "Urdu"
+      ],
+      "climate": "Tropical, with coastal humidity and a drier interior"
+    },
+    "clothing": [
+      "Sarees and dhotis",
+      "Mangalagiri textiles",
+      "Venkatagiri sarees"
+    ],
+    "food": [
+      "Pulihora",
+      "Gongura dishes",
+      "Pootharekulu",
+      "Gutti vankaya"
+    ],
+    "dance": [
+      "Kuchipudi",
+      "Kolattam",
+      "Dhimsa"
+    ],
+    "music": [
+      "Carnatic traditions",
+      "Folk ballads",
+      "Harikatha"
+    ],
+    "crafts": [
+      "Kalamkari",
+      "Kondapalli toys",
+      "Durgi stone carving",
+      "Mangalagiri weaving"
+    ],
+    "architecture": [
+      "Dravidian temples",
+      "Amaravati Buddhist heritage",
+      "Lepakshi temple architecture"
+    ],
+    "places": [
+      "Visakhapatnam",
+      "Tirupati",
+      "Vijayawada",
+      "Amaravati",
+      "Lepakshi",
+      "Araku Valley"
+    ],
+    "festivals": [
+      "Ugadi",
+      "Sankranti",
+      "Brahmotsavam",
+      "Dasara"
+    ],
+    "folklore": [
+      "Stories connected with Tirupati and regional folk traditions",
+      "Local ballads and oral storytelling"
+    ],
+    "traditional_life": [
+      "Agriculture and fishing are important in many regions",
+      "Coastal and Rayalaseema communities have distinct food and cultural traditions"
+    ],
+    "processes": [
+      "Kalamkari: drawing/block printing and natural-dye textile work",
+      "Kondapalli toys: lightweight wood carving and painting"
+    ],
+    "source_note": "Use official tourism and Ministry of Culture sources for verification of individual entries."
+  },
+  "arunachal-pradesh": {
+    "name": "Arunachal Pradesh",
+    "identity": {
+      "region": "Northeast India",
+      "capital": "Itanagar",
+      "languages": [
+        "English",
+        "Hindi",
+        "Tani and other indigenous languages"
+      ],
+      "climate": "Mountainous; varies from subtropical valleys to cold highlands"
+    },
+    "clothing": [
+      "Traditional woven shawls",
+      "Tribal ceremonial dress",
+      "Handwoven textiles"
+    ],
+    "food": [
+      "Thukpa",
+      "Momos",
+      "Bamboo-shoot preparations",
+      "Apong in traditional contexts"
+    ],
+    "dance": [
+      "Ponung",
+      "Bardo Chham",
+      "Aji Lhamu"
+    ],
+    "music": [
+      "Community folk songs",
+      "Traditional drums and string instruments"
+    ],
+    "crafts": [
+      "Bamboo and cane work",
+      "Carpet weaving",
+      "Wood carving",
+      "Handloom textiles"
+    ],
+    "architecture": [
+      "Traditional tribal houses",
+      "Buddhist monastic architecture in western areas"
+    ],
+    "places": [
+      "Tawang",
+      "Ziro",
+      "Itanagar",
+      "Bomdila",
+      "Mechuka",
+      "Namdapha region"
+    ],
+    "festivals": [
+      "Losar",
+      "Solung",
+      "Nyokum",
+      "Si-Donyi"
+    ],
+    "folklore": [
+      "Oral traditions and origin stories vary by tribe",
+      "Legends associated with mountains, rivers and ancestral communities"
+    ],
+    "traditional_life": [
+      "Many communities maintain strong village and clan traditions",
+      "Handloom, farming, horticulture and forest-linked livelihoods are important"
+    ],
+    "processes": [
+      "Bamboo/cane craft involves splitting, shaping and weaving natural material",
+      "Traditional textiles are woven on community looms"
+    ]
+  },
+  "assam": {
+    "name": "Assam",
+    "identity": {
+      "region": "Northeast India",
+      "capital": "Dispur",
+      "languages": [
+        "Assamese",
+        "Bodo",
+        "Bengali"
+      ],
+      "climate": "Humid subtropical with heavy monsoon rainfall"
+    },
+    "clothing": [
+      "Mekhela Chador",
+      "Gamosa",
+      "Traditional Muga silk"
+    ],
+    "food": [
+      "Khar",
+      "Masor tenga",
+      "Pitha",
+      "Duck preparations"
+    ],
+    "dance": [
+      "Bihu dance",
+      "Sattriya",
+      "Bagurumba"
+    ],
+    "music": [
+      "Bihu songs",
+      "Borgeet",
+      "Traditional khol and pepa music"
+    ],
+    "crafts": [
+      "Muga silk",
+      "Eri silk",
+      "Bamboo and cane craft",
+      "Bell-metal work"
+    ],
+    "architecture": [
+      "Satras",
+      "Ahom-era monuments",
+      "Traditional Assamese houses"
+    ],
+    "places": [
+      "Guwahati",
+      "Majuli",
+      "Sivasagar",
+      "Kaziranga",
+      "Tezpur",
+      "Haflong"
+    ],
+    "festivals": [
+      "Rongali Bihu",
+      "Bhogali Bihu",
+      "Kongali Bihu",
+      "Ambubachi Mela"
+    ],
+    "folklore": [
+      "Stories of Ahom history and local legends",
+      "Vaishnavite devotional storytelling traditions"
+    ],
+    "traditional_life": [
+      "Tea cultivation is important economically",
+      "Riverine communities have distinctive lifestyles and crafts"
+    ],
+    "processes": [
+      "Muga silk: rearing silkworms, reeling silk and weaving",
+      "Bamboo craft: splitting, bending and weaving bamboo"
+    ],
+    "source_note": "Official tourism sources identify Assam's arts, crafts and festival traditions."
+  },
+  "bihar": {
+    "name": "Bihar",
+    "identity": {
+      "region": "East India",
+      "capital": "Patna",
+      "languages": [
+        "Hindi",
+        "Maithili",
+        "Bhojpuri",
+        "Magahi"
+      ],
+      "climate": "Hot summers, monsoon rainfall and cool winters"
+    },
+    "clothing": [
+      "Sarees",
+      "Dhoti-kurta",
+      "Bhagalpur silk"
+    ],
+    "food": [
+      "Litti chokha",
+      "Sattu",
+      "Thekua",
+      "Khaja"
+    ],
+    "dance": [
+      "Jat-Jatin",
+      "Jhijhiya",
+      "Bidesia"
+    ],
+    "music": [
+      "Bhojpuri folk music",
+      "Maithili folk songs",
+      "Sohar"
+    ],
+    "crafts": [
+      "Madhubani painting",
+      "Sujini embroidery",
+      "Sikki craft",
+      "Applique/Khatwa"
+    ],
+    "architecture": [
+      "Nalanda ruins",
+      "Mahabodhi Temple tradition",
+      "Mauryan and Buddhist heritage"
+    ],
+    "places": [
+      "Bodh Gaya",
+      "Nalanda",
+      "Patna",
+      "Vaishali",
+      "Rajgir",
+      "Madhubani"
+    ],
+    "festivals": [
+      "Chhath Puja",
+      "Sama-Chakeva",
+      "Jitiya"
+    ],
+    "folklore": [
+      "Maithili and Bhojpuri oral traditions",
+      "Stories associated with Sita and Mithila traditions"
+    ],
+    "traditional_life": [
+      "Agriculture and river-based livelihoods are important",
+      "Village festivals often combine food, music and community participation"
+    ],
+    "processes": [
+      "Madhubani painting: line drawing, filling motifs and natural/modern pigments",
+      "Sikki craft: drying, splitting and weaving golden grass"
+    ],
+    "source_note": "Madhubani and Khatwa are highlighted among India's traditional crafts."
+  },
+  "chhattisgarh": {
+    "name": "Chhattisgarh",
+    "identity": {
+      "region": "Central India",
+      "capital": "Raipur",
+      "languages": [
+        "Hindi",
+        "Chhattisgarhi",
+        "Gondi and other tribal languages"
+      ],
+      "climate": "Tropical with hot summers and monsoon rainfall"
+    },
+    "clothing": [
+      "Sarees",
+      "Traditional tribal textiles",
+      "Kosa silk"
+    ],
+    "food": [
+      "Fara",
+      "Chila",
+      "Bafauri",
+      "Aamat"
+    ],
+    "dance": [
+      "Panthi",
+      "Raut Nacha",
+      "Karma",
+      "Gaur"
+    ],
+    "music": [
+      "Pandavani",
+      "Folk drumming",
+      "Tribal songs"
+    ],
+    "crafts": [
+      "Bastar Dhokra",
+      "Bell-metal craft",
+      "Terracotta",
+      "Bamboo craft"
+    ],
+    "architecture": [
+      "Tribal village architecture",
+      "Temple and archaeological sites"
+    ],
+    "places": [
+      "Raipur",
+      "Jagdalpur",
+      "Chitrakote Falls",
+      "Sirpur",
+      "Bastar",
+      "Kanger Valley"
+    ],
+    "festivals": [
+      "Bastar Dussehra",
+      "Hareli",
+      "Madai",
+      "Goncha"
+    ],
+    "folklore": [
+      "Pandavani storytelling",
+      "Bastar tribal oral traditions"
+    ],
+    "traditional_life": [
+      "Many tribal communities maintain distinctive art, music and craft traditions",
+      "Forest produce and agriculture support many rural livelihoods"
+    ],
+    "processes": [
+      "Dhokra: wax modelling, clay moulding, metal casting and finishing",
+      "Bamboo craft: splitting and weaving bamboo"
+    ],
+    "source_note": "Bastar Dhokra is listed among India's notable crafts."
+  },
+  "goa": {
+    "name": "Goa",
+    "identity": {
+      "region": "West Coast",
+      "capital": "Panaji",
+      "languages": [
+        "Konkani",
+        "Marathi",
+        "English"
+      ],
+      "climate": "Tropical coastal and humid"
+    },
+    "clothing": [
+      "Kunbi saree",
+      "Traditional festive clothing",
+      "Modern coastal clothing"
+    ],
+    "food": [
+      "Fish curry rice",
+      "Xacuti",
+      "Bebinca",
+      "Prawn balchao"
+    ],
+    "dance": [
+      "Fugdi",
+      "Dhalo",
+      "Dekhnni"
+    ],
+    "music": [
+      "Mando",
+      "Dulpod",
+      "Traditional percussion"
+    ],
+    "crafts": [
+      "Coconut and shell craft",
+      "Pottery",
+      "Traditional weaving"
+    ],
+    "architecture": [
+      "Indo-Portuguese houses",
+      "Old Goa churches",
+      "Traditional Goan homes"
+    ],
+    "places": [
+      "Panaji",
+      "Old Goa",
+      "Margao",
+      "Ponda",
+      "Dudhsagar",
+      "Chapora"
+    ],
+    "festivals": [
+      "Carnival",
+      "Shigmo",
+      "São João",
+      "Chikhal Kalo"
+    ],
+    "folklore": [
+      "Konkan folk legends and village traditions",
+      "Stories linked to local temples and churches"
+    ],
+    "traditional_life": [
+      "Fishing, farming and coastal trade have shaped local life",
+      "Village festivals often combine music, food and community participation"
+    ],
+    "processes": [
+      "Traditional pottery involves clay preparation, shaping, drying and firing"
+    ],
+    "source_note": "Goa's official tourism material documents its coastal culture and festivals."
+  },
+  "gujarat": {
+    "name": "Gujarat",
+    "identity": {
+      "region": "West India",
+      "capital": "Gandhinagar",
+      "languages": [
+        "Gujarati",
+        "Hindi"
+      ],
+      "climate": "Mostly dry to semi-arid, with coastal and wetter areas"
+    },
+    "clothing": [
+      "Chaniya choli",
+      "Kediyu",
+      "Bandhani textiles",
+      "Patola sarees"
+    ],
+    "food": [
+      "Dhokla",
+      "Khandvi",
+      "Thepla",
+      "Undhiyu",
+      "Fafda-jalebi"
+    ],
+    "dance": [
+      "Garba",
+      "Dandiya Raas",
+      "Tippani"
+    ],
+    "music": [
+      "Dayro",
+      "Garba songs",
+      "Bhajans"
+    ],
+    "crafts": [
+      "Patola",
+      "Bandhani",
+      "Ajrakh",
+      "Rogan art",
+      "Kutch embroidery"
+    ],
+    "architecture": [
+      "Stepwells",
+      "Pol houses",
+      "Jain and Hindu temples"
+    ],
+    "places": [
+      "Ahmedabad",
+      "Kutch",
+      "Bhuj",
+      "Patan",
+      "Dwarka",
+      "Gir"
+    ],
+    "festivals": [
+      "Navratri",
+      "Uttarayan",
+      "Rann Utsav",
+      "Janmashtami"
+    ],
+    "folklore": [
+      "Stories of local saints and pastoral communities",
+      "Garba traditions connected with devotional storytelling"
+    ],
+    "traditional_life": [
+      "Kutch and Saurashtra have strong craft and pastoral traditions",
+      "Trade and textile production have shaped many communities"
+    ],
+    "processes": [
+      "Patola: resist dyeing and complex weaving",
+      "Rogan: painting with prepared coloured material on fabric",
+      "Bandhani: tying fabric points before dyeing"
+    ],
+    "source_note": "Official tourism highlights Rogan, Ajrakh and other Kutch crafts."
+  },
+  "haryana": {
+    "name": "Haryana",
+    "identity": {
+      "region": "North India",
+      "capital": "Chandigarh",
+      "languages": [
+        "Hindi",
+        "Haryanvi",
+        "Punjabi"
+      ],
+      "climate": "Semi-arid to subtropical"
+    },
+    "clothing": [
+      "Dhotis and kurtas",
+      "Ghagra and traditional women's dress",
+      "Phulkari-influenced textiles in some areas"
+    ],
+    "food": [
+      "Bajra roti",
+      "Churma",
+      "Kadhi",
+      "Lassi"
+    ],
+    "dance": [
+      "Dhamal",
+      "Khoria",
+      "Saang"
+    ],
+    "music": [
+      "Ragini",
+      "Rasiya",
+      "Folk songs"
+    ],
+    "crafts": [
+      "Phulkari-related embroidery",
+      "Handloom and pottery"
+    ],
+    "architecture": [
+      "Traditional rural homes",
+      "Historic forts and monuments"
+    ],
+    "places": [
+      "Kurukshetra",
+      "Panipat",
+      "Pinjore",
+      "Gurugram",
+      "Hisar"
+    ],
+    "festivals": [
+      "Teej",
+      "Baisakhi",
+      "Surajkund Crafts Mela"
+    ],
+    "folklore": [
+      "Saang theatre and folk narratives",
+      "Mahabharata-linked traditions around Kurukshetra"
+    ],
+    "traditional_life": [
+      "Agriculture is central to rural life",
+      "Village sports, fairs and community gatherings are important cultural spaces"
+    ],
+    "processes": [
+      "Traditional embroidery uses counted or decorative stitching on fabric"
+    ]
+  },
+  "himachal-pradesh": {
+    "name": "Himachal Pradesh",
+    "identity": {
+      "region": "Western Himalayas",
+      "capital": "Shimla",
+      "languages": [
+        "Hindi",
+        "Pahari languages"
+      ],
+      "climate": "Mountain climate ranging from temperate valleys to cold highlands"
+    },
+    "clothing": [
+      "Woollen shawls",
+      "Himachali caps",
+      "Chola and traditional wool garments"
+    ],
+    "food": [
+      "Dham",
+      "Siddu",
+      "Madra",
+      "Chha Gosht"
+    ],
+    "dance": [
+      "Nati",
+      "Chham",
+      "Kullu folk dances"
+    ],
+    "music": [
+      "Nati songs",
+      "Mountain folk music"
+    ],
+    "crafts": [
+      "Kullu shawls",
+      "Chamba rumal",
+      "Wood carving",
+      "Metal craft"
+    ],
+    "architecture": [
+      "Kath-Kuni architecture",
+      "Hill temples",
+      "Monasteries in high-altitude regions"
+    ],
+    "places": [
+      "Shimla",
+      "Manali",
+      "Kullu",
+      "Chamba",
+      "Spiti",
+      "Dharamshala"
+    ],
+    "festivals": [
+      "Kullu Dussehra",
+      "Minjar Fair",
+      "Losar in Himalayan communities"
+    ],
+    "folklore": [
+      "Devta traditions and mountain legends",
+      "Local oral histories around villages and valleys"
+    ],
+    "traditional_life": [
+      "Apple horticulture, farming and pastoralism are important",
+      "Village deity traditions influence many community festivals"
+    ],
+    "processes": [
+      "Kullu shawl: wool preparation, spinning and weaving with traditional patterns",
+      "Wood carving: carving local timber into decorative forms"
+    ],
+    "source_note": "Official tourism material describes Kullu Dussehra and Himalayan heritage traditions."
+  },
+  "jharkhand": {
+    "name": "Jharkhand",
+    "identity": {
+      "region": "East/Central India",
+      "capital": "Ranchi",
+      "languages": [
+        "Hindi",
+        "Santhali",
+        "Mundari",
+        "Ho",
+        "Nagpuri"
+      ],
+      "climate": "Tropical with monsoon rainfall"
+    },
+    "clothing": [
+      "Sarees",
+      "Traditional tribal textiles",
+      "Dhoti and regional garments"
+    ],
+    "food": [
+      "Dhuska",
+      "Rugra",
+      "Thekua",
+      "Pitha"
+    ],
+    "dance": [
+      "Chhau",
+      "Jhumair",
+      "Paika",
+      "Santhali dances"
+    ],
+    "music": [
+      "Mandar-based folk music",
+      "Santhali songs"
+    ],
+    "crafts": [
+      "Dokra",
+      "Bamboo craft",
+      "Tribal painting",
+      "Wood craft"
+    ],
+    "architecture": [
+      "Tribal village architecture",
+      "Temples and megalithic traditions"
+    ],
+    "places": [
+      "Ranchi",
+      "Deoghar",
+      "Netarhat",
+      "Jamshedpur",
+      "Betla",
+      "Hazaribagh"
+    ],
+    "festivals": [
+      "Sarhul",
+      "Karam",
+      "Tusu",
+      "Sohrai"
+    ],
+    "folklore": [
+      "Santhali and Munda oral traditions",
+      "Community myths and seasonal stories"
+    ],
+    "traditional_life": [
+      "Agriculture, forests and community traditions are important",
+      "Tribal art and music are often linked to seasonal cycles"
+    ],
+    "processes": [
+      "Dokra: wax casting and metal finishing",
+      "Sohrai/Khovar painting: preparing surfaces and applying traditional motifs"
+    ],
+    "source_note": "Official tourism highlights tribal heritage, crafts and festivals."
+  },
+  "karnataka": {
+    "name": "Karnataka",
+    "identity": {
+      "region": "South India",
+      "capital": "Bengaluru",
+      "languages": [
+        "Kannada",
+        "Tulu",
+        "Konkani and others"
+      ],
+      "climate": "Varied: coastal tropical, plateau semi-arid and hill climates"
+    },
+    "clothing": [
+      "Ilkal saree",
+      "Mysore silk",
+      "Panche"
+    ],
+    "food": [
+      "Bisi bele bath",
+      "Mysore pak",
+      "Ragi mudde",
+      "Neer dosa"
+    ],
+    "dance": [
+      "Yakshagana",
+      "Dollu Kunitha",
+      "Veeragase"
+    ],
+    "music": [
+      "Carnatic music",
+      "Janapada folk music"
+    ],
+    "crafts": [
+      "Channapatna toys",
+      "Mysore silk",
+      "Mysore painting",
+      "Bidriware"
+    ],
+    "architecture": [
+      "Hoysala temples",
+      "Vijayanagara architecture",
+      "Dravidian temples"
+    ],
+    "places": [
+      "Bengaluru",
+      "Mysuru",
+      "Hampi",
+      "Coorg",
+      "Badami",
+      "Gokarna"
+    ],
+    "festivals": [
+      "Mysuru Dasara",
+      "Ugadi",
+      "Karaga",
+      "Hampi Utsav"
+    ],
+    "folklore": [
+      "Yakshagana stories",
+      "Local hero and deity traditions"
+    ],
+    "traditional_life": [
+      "Handloom, agriculture and coastal livelihoods vary by region",
+      "Temple festivals and village performances remain important cultural spaces"
+    ],
+    "processes": [
+      "Channapatna toys: turned wood shaping, colouring and finishing",
+      "Mysore painting: prepared surface, line work and decorative detailing"
+    ],
+    "source_note": "Channapatna toys are highlighted by Incredible India."
+  },
+  "kerala": {
+    "name": "Kerala",
+    "identity": {
+      "region": "Southwest Coast",
+      "capital": "Thiruvananthapuram",
+      "languages": [
+        "Malayalam",
+        "English"
+      ],
+      "climate": "Tropical monsoon"
+    },
+    "clothing": [
+      "Kasavu saree",
+      "Mundu",
+      "Settu mundu"
+    ],
+    "food": [
+      "Sadya",
+      "Appam",
+      "Puttu",
+      "Avial",
+      "Kerala parotta"
+    ],
+    "dance": [
+      "Kathakali",
+      "Mohiniyattam",
+      "Theyyam",
+      "Thiruvathira"
+    ],
+    "music": [
+      "Sopana sangeetham",
+      "Chenda ensembles",
+      "Mappila songs"
+    ],
+    "crafts": [
+      "Aranmula Kannadi",
+      "Coir craft",
+      "Bell-metal work",
+      "Handloom"
+    ],
+    "architecture": [
+      "Nalukettu houses",
+      "Temple architecture",
+      "Traditional wooden architecture"
+    ],
+    "places": [
+      "Kochi",
+      "Thiruvananthapuram",
+      "Munnar",
+      "Alappuzha",
+      "Wayanad",
+      "Kozhikode"
+    ],
+    "festivals": [
+      "Onam",
+      "Vishu",
+      "Thrissur Pooram",
+      "Theyyam seasons"
+    ],
+    "folklore": [
+      "Vadakkan Pattukal",
+      "Temple legends and Theyyam narratives"
+    ],
+    "traditional_life": [
+      "Backwaters, agriculture, fishing and trade shape regional life",
+      "Ayurveda and traditional knowledge are prominent cultural themes"
+    ],
+    "processes": [
+      "Coir: coconut husk processing, fibre extraction, spinning and weaving",
+      "Aranmula Kannadi: traditional metal-alloy mirror making"
+    ],
+    "source_note": "Aranmula Kannadi is listed among India's notable crafts."
+  },
+  "madhya-pradesh": {
+    "name": "Madhya Pradesh",
+    "identity": {
+      "region": "Central India",
+      "capital": "Bhopal",
+      "languages": [
+        "Hindi",
+        "Bundeli",
+        "Malvi",
+        "Bagheli"
+      ],
+      "climate": "Tropical with hot summers and monsoon rainfall"
+    },
+    "clothing": [
+      "Chanderi sarees",
+      "Maheshwari sarees",
+      "Regional tribal clothing"
+    ],
+    "food": [
+      "Poha",
+      "Dal bafla",
+      "Bhutte ka kees",
+      "Malpua"
+    ],
+    "dance": [
+      "Rai",
+      "Matki",
+      "Gaur",
+      "Jawara"
+    ],
+    "music": [
+      "Bundeli and Malwa folk music",
+      "Pandavani traditions in regional contexts"
+    ],
+    "crafts": [
+      "Bagh print",
+      "Gond painting",
+      "Chanderi weaving",
+      "Bamboo craft"
+    ],
+    "architecture": [
+      "Khajuraho temples",
+      "Sanchi Buddhist monuments",
+      "Orchha heritage"
+    ],
+    "places": [
+      "Bhopal",
+      "Khajuraho",
+      "Sanchi",
+      "Orchha",
+      "Pachmarhi",
+      "Mandu"
+    ],
+    "festivals": [
+      "Khajuraho Dance Festival",
+      "Bhagoria",
+      "Lokrang",
+      "Mahua Mahotsav"
+    ],
+    "folklore": [
+      "Gond storytelling and paintings",
+      "Bundeli and Malwa oral traditions"
+    ],
+    "traditional_life": [
+      "Agriculture and forest-linked livelihoods are important",
+      "Tribal communities have distinctive art, music and knowledge traditions"
+    ],
+    "processes": [
+      "Bagh print: washing, carving blocks, dyeing and repeated printing",
+      "Gond painting: fine lines, dots and nature-based motifs"
+    ],
+    "source_note": "Bagh Prints are highlighted among India's crafts."
+  },
+  "maharashtra": {
+    "name": "Maharashtra",
+    "identity": {
+      "region": "West/Central India",
+      "capital": "Mumbai",
+      "languages": [
+        "Marathi",
+        "Hindi"
+      ],
+      "climate": "Varied from humid coast to drier plateau"
+    },
+    "clothing": [
+      "Nauvari saree",
+      "Paithani",
+      "Dhotar and kurta"
+    ],
+    "food": [
+      "Vada pav",
+      "Puran poli",
+      "Misal pav",
+      "Bharli vangi"
+    ],
+    "dance": [
+      "Lavani",
+      "Lezim",
+      "Dhangari Gaja"
+    ],
+    "music": [
+      "Powada",
+      "Lavani music",
+      "Abhang traditions"
+    ],
+    "crafts": [
+      "Warli painting",
+      "Paithani weaving",
+      "Kolhapuri leather craft",
+      "Sawantwadi craft"
+    ],
+    "architecture": [
+      "Maratha forts",
+      "Cave architecture",
+      "Wadas"
+    ],
+    "places": [
+      "Mumbai",
+      "Pune",
+      "Nashik",
+      "Aurangabad/Chhatrapati Sambhajinagar",
+      "Konkan",
+      "Raigad"
+    ],
+    "festivals": [
+      "Ganesh Chaturthi",
+      "Gudi Padwa",
+      "Mangalagaur",
+      "Pandharpur Wari"
+    ],
+    "folklore": [
+      "Powada heroic ballads",
+      "Varkari devotional storytelling"
+    ],
+    "traditional_life": [
+      "Agriculture, coastal fishing and urban trade coexist",
+      "Wari traditions connect communities through pilgrimage and music"
+    ],
+    "processes": [
+      "Warli painting: geometric forms and scenes of community life",
+      "Paithani: handloom weaving with traditional motifs"
+    ],
+    "source_note": "Warli painting is listed among India's notable crafts."
+  },
+  "manipur": {
+    "name": "Manipur",
+    "identity": {
+      "region": "Northeast India",
+      "capital": "Imphal",
+      "languages": [
+        "Meitei",
+        "English",
+        "Tribal languages"
+      ],
+      "climate": "Humid subtropical with hill and valley variation"
+    },
+    "clothing": [
+      "Phanek",
+      "Innaphi",
+      "Traditional shawls"
+    ],
+    "food": [
+      "Eromba",
+      "Singju",
+      "Chamthong",
+      "Manipuri black rice"
+    ],
+    "dance": [
+      "Manipuri Ras Lila",
+      "Thang-Ta martial art tradition",
+      "Lai Haraoba dances"
+    ],
+    "music": [
+      "Pena music",
+      "Khongjom Parba",
+      "Traditional drums"
+    ],
+    "crafts": [
+      "Handloom textiles",
+      "Bamboo and cane craft",
+      "Pottery"
+    ],
+    "architecture": [
+      "Traditional Meitei houses",
+      "Historic temples"
+    ],
+    "places": [
+      "Imphal",
+      "Loktak Lake",
+      "Moirang",
+      "Ukhrul",
+      "Keibul Lamjao"
+    ],
+    "festivals": [
+      "Yaoshang",
+      "Lai Haraoba",
+      "Ningol Chakouba",
+      "Kut"
+    ],
+    "folklore": [
+      "Meitei creation and deity traditions",
+      "Lai Haraoba oral narratives"
+    ],
+    "traditional_life": [
+      "Handloom and agriculture are important",
+      "Loktak Lake and surrounding communities have distinctive livelihoods"
+    ],
+    "processes": [
+      "Handloom weaving: yarn preparation, loom setup and patterned weaving"
+    ],
+    "source_note": "Official tourism highlights Manipur's heritage and festivals."
+  },
+  "meghalaya": {
+    "name": "Meghalaya",
+    "identity": {
+      "region": "Northeast India",
+      "capital": "Shillong",
+      "languages": [
+        "Khasi",
+        "Garo",
+        "Jaintia",
+        "English"
+      ],
+      "climate": "Very high rainfall in many areas, with cooler hills"
+    },
+    "clothing": [
+      "Jainsem",
+      "Dakmanda",
+      "Traditional shawls"
+    ],
+    "food": [
+      "Jadoh",
+      "Dohneiihong",
+      "Tungrymbai",
+      "Pukhlein"
+    ],
+    "dance": [
+      "Wangala",
+      "Nongkrem dance",
+      "Shad Suk Mynsiem"
+    ],
+    "music": [
+      "Drum and flute traditions",
+      "Community folk songs"
+    ],
+    "crafts": [
+      "Bamboo and cane craft",
+      "Weaving",
+      "Wood craft"
+    ],
+    "architecture": [
+      "Traditional Khasi, Jaintia and Garo houses",
+      "Monolith traditions"
+    ],
+    "places": [
+      "Shillong",
+      "Cherrapunji/Sohra",
+      "Mawlynnong",
+      "Tura",
+      "Nongpoh"
+    ],
+    "festivals": [
+      "Wangala",
+      "Nongkrem",
+      "Shad Suk Mynsiem",
+      "Behdienkhlam"
+    ],
+    "folklore": [
+      "Khasi and Garo oral traditions",
+      "Local stories around sacred groves and landscapes"
+    ],
+    "traditional_life": [
+      "Community institutions and clan traditions are important",
+      "Agriculture, weaving and forest knowledge shape many rural communities"
+    ],
+    "processes": [
+      "Bamboo craft: curing, splitting, shaping and weaving bamboo"
+    ]
+  },
+  "mizoram": {
+    "name": "Mizoram",
+    "identity": {
+      "region": "Northeast India",
+      "capital": "Aizawl",
+      "languages": [
+        "Mizo",
+        "English"
+      ],
+      "climate": "Hilly, humid and monsoonal"
+    },
+    "clothing": [
+      "Puan",
+      "Puanchei",
+      "Traditional shawls"
+    ],
+    "food": [
+      "Bai",
+      "Sawhchiar",
+      "Mizo-style smoked foods"
+    ],
+    "dance": [
+      "Cheraw",
+      "Khuallam",
+      "Chheih Lam"
+    ],
+    "music": [
+      "Mizo folk songs",
+      "Traditional bamboo and drum rhythms"
+    ],
+    "crafts": [
+      "Puan weaving",
+      "Bamboo and cane craft",
+      "Basketry"
+    ],
+    "architecture": [
+      "Traditional bamboo houses",
+      "Hilly settlement architecture"
+    ],
+    "places": [
+      "Aizawl",
+      "Reiek",
+      "Lunglei",
+      "Champhai",
+      "Durtlang"
+    ],
+    "festivals": [
+      "Chapchar Kut",
+      "Mim Kut",
+      "Pawl Kut",
+      "Thalfavang Kut"
+    ],
+    "folklore": [
+      "Mizo oral histories and clan stories",
+      "Stories associated with migration and village life"
+    ],
+    "traditional_life": [
+      "Bamboo, weaving and community celebrations are important",
+      "Village life historically emphasized collective work and cooperation"
+    ],
+    "processes": [
+      "Puan weaving: preparing yarn, setting the loom and weaving traditional patterns"
+    ]
+  },
+  "nagaland": {
+    "name": "Nagaland",
+    "identity": {
+      "region": "Northeast India",
+      "capital": "Kohima",
+      "languages": [
+        "English",
+        "Nagamese",
+        "Multiple Naga languages"
+      ],
+      "climate": "Hilly, humid and monsoonal"
+    },
+    "clothing": [
+      "Tribal shawls",
+      "Traditional warrior and ceremonial attire",
+      "Woven textiles"
+    ],
+    "food": [
+      "Smoked pork",
+      "Axone dishes",
+      "Bamboo shoot preparations",
+      "Sticky rice"
+    ],
+    "dance": [
+      "Chang Lo",
+      "Zeliang dances",
+      "War and harvest dances"
+    ],
+    "music": [
+      "Naga folk songs",
+      "Log drum traditions"
+    ],
+    "crafts": [
+      "Naga shawl weaving",
+      "Bamboo and cane craft",
+      "Wood carving",
+      "Beadwork"
+    ],
+    "architecture": [
+      "Traditional Naga morungs",
+      "Hill village architecture"
+    ],
+    "places": [
+      "Kohima",
+      "Dimapur",
+      "Dzukou Valley",
+      "Mokokchung",
+      "Mon"
+    ],
+    "festivals": [
+      "Hornbill Festival",
+      "Moatsu",
+      "Sekrenyi",
+      "Aoling"
+    ],
+    "folklore": [
+      "Oral histories and clan legends",
+      "Village origin stories vary among Naga communities"
+    ],
+    "traditional_life": [
+      "Village councils and community institutions have long been important",
+      "Agriculture, weaving and craft traditions are central to many communities"
+    ],
+    "processes": [
+      "Textile weaving: preparing yarn and creating clan/community-specific patterns"
+    ]
+  },
+  "odisha": {
+    "name": "Odisha",
+    "identity": {
+      "region": "East Coast",
+      "capital": "Bhubaneswar",
+      "languages": [
+        "Odia"
+      ],
+      "climate": "Tropical with coastal humidity and monsoon rainfall"
+    },
+    "clothing": [
+      "Sambalpuri saree",
+      "Bomkai saree",
+      "Dhoti and traditional garments"
+    ],
+    "food": [
+      "Pakhala",
+      "Dalma",
+      "Chhena poda",
+      "Dahibara aloo dum"
+    ],
+    "dance": [
+      "Odissi",
+      "Chhau",
+      "Gotipua",
+      "Dalkhai"
+    ],
+    "music": [
+      "Odissi music",
+      "Folk music",
+      "Pala and Daskathia"
+    ],
+    "crafts": [
+      "Pattachitra",
+      "Pipili applique",
+      "Sambalpuri ikat",
+      "Stone carving",
+      "Palm-leaf engraving"
+    ],
+    "architecture": [
+      "Kalinga temple architecture",
+      "Konark Sun Temple",
+      "Jagannath Temple tradition"
+    ],
+    "places": [
+      "Bhubaneswar",
+      "Puri",
+      "Konark",
+      "Cuttack",
+      "Raghurajpur",
+      "Chilika"
+    ],
+    "festivals": [
+      "Rath Yatra",
+      "Nuakhai",
+      "Raja",
+      "Konark Dance Festival"
+    ],
+    "folklore": [
+      "Jagannath traditions",
+      "Pattachitra storytelling and regional oral traditions"
+    ],
+    "traditional_life": [
+      "Temple culture, handloom and craft villages are important",
+      "Coastal fishing and agriculture shape many communities"
+    ],
+    "processes": [
+      "Pattachitra: preparing cloth surface, drawing outlines and filling mineral/organic colours",
+      "Pipili applique: cutting coloured fabric and stitching decorative motifs"
+    ],
+    "source_note": "Raghurajpur is documented for Pattachitra, palm-leaf art and Gotipua traditions."
+  },
+  "punjab": {
+    "name": "Punjab",
+    "identity": {
+      "region": "North India",
+      "capital": "Chandigarh",
+      "languages": [
+        "Punjabi",
+        "Hindi"
+      ],
+      "climate": "Semi-arid to subtropical with hot summers"
+    },
+    "clothing": [
+      "Phulkari",
+      "Salwar kameez",
+      "Kurta-pajama",
+      "Turban traditions"
+    ],
+    "food": [
+      "Sarson da saag and makki di roti",
+      "Amritsari kulcha",
+      "Chole",
+      "Lassi"
+    ],
+    "dance": [
+      "Bhangra",
+      "Giddha",
+      "Sammi"
+    ],
+    "music": [
+      "Punjabi folk music",
+      "Tumbi and dhol traditions",
+      "Sufi music"
+    ],
+    "crafts": [
+      "Phulkari",
+      "Punjabi jutti",
+      "Wood and metal craft"
+    ],
+    "architecture": [
+      "Sikh gurdwara architecture",
+      "Traditional havelis",
+      "Historic forts"
+    ],
+    "places": [
+      "Amritsar",
+      "Ludhiana",
+      "Patiala",
+      "Anandpur Sahib",
+      "Jalandhar"
+    ],
+    "festivals": [
+      "Baisakhi",
+      "Lohri",
+      "Hola Mohalla",
+      "Gurpurabs"
+    ],
+    "folklore": [
+      "Heer-Ranjha",
+      "Sohni-Mahiwal",
+      "Sufi and Punjabi folk narratives"
+    ],
+    "traditional_life": [
+      "Agriculture has strongly shaped Punjabi culture",
+      "Community meals, music and fairs are important social traditions"
+    ],
+    "processes": [
+      "Phulkari: decorative embroidery on fabric using coloured threads"
+    ],
+    "source_note": "Phulkari is highlighted among India's notable crafts."
+  },
+  "rajasthan": {
+    "name": "Rajasthan",
+    "identity": {
+      "region": "Northwest India",
+      "capital": "Jaipur",
+      "languages": [
+        "Hindi",
+        "Rajasthani dialects"
+      ],
+      "climate": "Mostly hot and dry, with desert regions and varied Aravalli landscapes"
+    },
+    "clothing": [
+      "Ghagra choli",
+      "Bandhani",
+      "Pagri/safa",
+      "Angarkha"
+    ],
+    "food": [
+      "Dal baati churma",
+      "Gatte ki sabzi",
+      "Ker sangri",
+      "Laal maas"
+    ],
+    "dance": [
+      "Ghoomar",
+      "Kalbelia",
+      "Bhavai",
+      "Chari"
+    ],
+    "music": [
+      "Manganiyar and Langa traditions",
+      "Maand",
+      "Folk ballads"
+    ],
+    "crafts": [
+      "Kathputli",
+      "Blue pottery",
+      "Block printing",
+      "Bandhani",
+      "Thewa"
+    ],
+    "architecture": [
+      "Rajput forts",
+      "Havelis",
+      "Stepwells",
+      "Palaces"
+    ],
+    "places": [
+      "Jaipur",
+      "Jodhpur",
+      "Jaisalmer",
+      "Udaipur",
+      "Pushkar",
+      "Chittorgarh"
+    ],
+    "festivals": [
+      "Gangaur",
+      "Teej",
+      "Pushkar Fair",
+      "Desert Festival"
+    ],
+    "folklore": [
+      "Pabuji ballads",
+      "Dhola-Maru traditions",
+      "Local heroic and devotional stories"
+    ],
+    "traditional_life": [
+      "Water conservation and clothing practices reflect adaptation to dry environments",
+      "Craft communities maintain specialized textile, leather, wood and metal traditions"
+    ],
+    "processes": [
+      "Bandhani: tying small fabric sections before dyeing",
+      "Kathputli: carving/assembling puppets and decorating them for performance",
+      "Block printing: carved blocks, dye application and repeated printing"
+    ],
+    "source_note": "Kathputlis are listed among India's notable crafts."
+  },
+  "sikkim": {
+    "name": "Sikkim",
+    "identity": {
+      "region": "Eastern Himalayas",
+      "capital": "Gangtok",
+      "languages": [
+        "Nepali",
+        "Sikkimese/Bhutia",
+        "Lepcha",
+        "English"
+      ],
+      "climate": "Mountainous, ranging from subtropical valleys to alpine zones"
+    },
+    "clothing": [
+      "Bakhu",
+      "Lepcha traditional dress",
+      "Woollen garments"
+    ],
+    "food": [
+      "Momos",
+      "Thukpa",
+      "Gundruk",
+      "Kinema"
+    ],
+    "dance": [
+      "Maruni",
+      "Singhi Chham",
+      "Yak dance"
+    ],
+    "music": [
+      "Traditional Buddhist and folk music",
+      "Drums and horns"
+    ],
+    "crafts": [
+      "Thangka painting",
+      "Carpet weaving",
+      "Wood carving",
+      "Handloom"
+    ],
+    "architecture": [
+      "Buddhist monasteries",
+      "Traditional Himalayan houses"
+    ],
+    "places": [
+      "Gangtok",
+      "Pelling",
+      "Yuksom",
+      "Lachung",
+      "Nathang Valley"
+    ],
+    "festivals": [
+      "Losar",
+      "Pang Lhabsol",
+      "Losoong",
+      "Saga Dawa"
+    ],
+    "folklore": [
+      "Lepcha origin traditions",
+      "Legends surrounding mountains and sacred landscapes"
+    ],
+    "traditional_life": [
+      "Monasteries and mountain agriculture influence cultural life",
+      "Lepcha, Bhutia and Nepali traditions contribute to the state's diversity"
+    ],
+    "processes": [
+      "Carpet weaving: yarn preparation and patterned loom weaving"
+    ]
+  },
+  "tamil-nadu": {
+    "name": "Tamil Nadu",
+    "identity": {
+      "region": "South India",
+      "capital": "Chennai",
+      "languages": [
+        "Tamil",
+        "English"
+      ],
+      "climate": "Tropical, with coastal humidity and varied rainfall"
+    },
+    "clothing": [
+      "Kanchipuram silk saree",
+      "Veshti",
+      "Madisar in traditional contexts"
+    ],
+    "food": [
+      "Idli",
+      "Dosa",
+      "Pongal",
+      "Sambar",
+      "Chettinad cuisine"
+    ],
+    "dance": [
+      "Bharatanatyam",
+      "Karagattam",
+      "Kummi"
+    ],
+    "music": [
+      "Carnatic music",
+      "Nadaswaram and thavil traditions",
+      "Tamil folk songs"
+    ],
+    "crafts": [
+      "Kanchipuram silk",
+      "Tanjore painting",
+      "Bronze casting",
+      "Mahabalipuram stone carving"
+    ],
+    "architecture": [
+      "Dravidian temples",
+      "Chola architecture",
+      "Chettinad mansions"
+    ],
+    "places": [
+      "Chennai",
+      "Madurai",
+      "Thanjavur",
+      "Mahabalipuram",
+      "Ooty",
+      "Rameswaram"
+    ],
+    "festivals": [
+      "Pongal",
+      "Tamil New Year",
+      "Chithirai Festival",
+      "Natyanjali"
+    ],
+    "folklore": [
+      "Tamil Sangam and devotional literary traditions",
+      "Regional temple legends"
+    ],
+    "traditional_life": [
+      "Temple arts, agriculture and handloom traditions remain culturally important",
+      "Classical music and dance have strong institutional and community traditions"
+    ],
+    "processes": [
+      "Tanjore painting: prepared board, relief work, gold foil and painting",
+      "Bronze casting: traditional lost-wax process"
+    ],
+    "source_note": "Official tourism sources cover Tamil Nadu's heritage, arts and temple traditions."
+  },
+  "telangana": {
+    "name": "Telangana",
+    "identity": {
+      "region": "South-Central India",
+      "capital": "Hyderabad",
+      "languages": [
+        "Telugu",
+        "Urdu"
+      ],
+      "climate": "Hot semi-arid to tropical"
+    },
+    "clothing": [
+      "Pochampally ikat",
+      "Traditional sarees",
+      "Dhoti and kurta"
+    ],
+    "food": [
+      "Hyderabadi biryani",
+      "Sakinalu",
+      "Sarva pindi",
+      "Haleem"
+    ],
+    "dance": [
+      "Perini Shivatandavam",
+      "Lambadi dances",
+      "Bathukamma-associated dances"
+    ],
+    "music": [
+      "Oggu Katha",
+      "Folk songs",
+      "Dappu traditions"
+    ],
+    "crafts": [
+      "Pochampally Ikat",
+      "Cheriyal painting",
+      "Nirmal toys and painting",
+      "Karimnagar silver filigree"
+    ],
+    "architecture": [
+      "Kakatiya temples",
+      "Qutb Shahi architecture",
+      "Charminar"
+    ],
+    "places": [
+      "Hyderabad",
+      "Warangal",
+      "Ramappa",
+      "Nizamabad",
+      "Nalgonda"
+    ],
+    "festivals": [
+      "Bathukamma",
+      "Bonalu",
+      "Sammakka Saralamma Jatara",
+      "Ugadi"
+    ],
+    "folklore": [
+      "Oggu Katha storytelling",
+      "Regional ballads and deity traditions"
+    ],
+    "traditional_life": [
+      "Handloom and agriculture are important",
+      "Hyderabad combines Deccan, Persianate, Telugu and Urdu cultural influences"
+    ],
+    "processes": [
+      "Ikat: resist dyeing yarn before weaving",
+      "Cheriyal painting: preparing scroll surfaces and painting stylized narrative scenes"
+    ],
+    "source_note": "Karimnagar silver filigree is listed among India's notable crafts."
+  },
+  "tripura": {
+    "name": "Tripura",
+    "identity": {
+      "region": "Northeast India",
+      "capital": "Agartala",
+      "languages": [
+        "Bengali",
+        "Kokborok",
+        "English"
+      ],
+      "climate": "Humid subtropical with monsoon rainfall"
+    },
+    "clothing": [
+      "Rignai",
+      "Risa",
+      "Rikutu"
+    ],
+    "food": [
+      "Mui Borok dishes",
+      "Chakhwi",
+      "Bamboo-shoot preparations"
+    ],
+    "dance": [
+      "Hojagiri",
+      "Garia dance",
+      "Lebang Boomani"
+    ],
+    "music": [
+      "Kokborok folk music",
+      "Traditional drums and flutes"
+    ],
+    "crafts": [
+      "Bamboo and cane craft",
+      "Handloom weaving",
+      "Wood carving"
+    ],
+    "architecture": [
+      "Ujjayanta Palace",
+      "Traditional tribal houses"
+    ],
+    "places": [
+      "Agartala",
+      "Unakoti",
+      "Neermahal",
+      "Sepahijala",
+      "Jampui Hills"
+    ],
+    "festivals": [
+      "Garia Puja",
+      "Kharchi Puja",
+      "Ker Puja",
+      "Pous Sankranti"
+    ],
+    "folklore": [
+      "Kokborok oral traditions",
+      "Unakoti legends and local sacred stories"
+    ],
+    "traditional_life": [
+      "Bamboo, weaving and agriculture are important",
+      "Tribal and Bengali cultural traditions coexist across the state"
+    ],
+    "processes": [
+      "Bamboo craft: cutting, curing, splitting and weaving",
+      "Handloom weaving of traditional Risa and Rignai patterns"
+    ]
+  },
+  "uttar-pradesh": {
+    "name": "Uttar Pradesh",
+    "identity": {
+      "region": "North India",
+      "capital": "Lucknow",
+      "languages": [
+        "Hindi",
+        "Awadhi",
+        "Braj",
+        "Urdu",
+        "Bhojpuri"
+      ],
+      "climate": "Subtropical with hot summers and monsoon rainfall"
+    },
+    "clothing": [
+      "Chikankari",
+      "Banarasi silk",
+      "Kurta-pajama",
+      "Traditional sarees"
+    ],
+    "food": [
+      "Awadhi biryani",
+      "Kachori",
+      "Petha",
+      "Banarasi chaat"
+    ],
+    "dance": [
+      "Kathak",
+      "Raslila",
+      "Charkula",
+      "Nautanki traditions"
+    ],
+    "music": [
+      "Hindustani classical music",
+      "Qawwali",
+      "Kajri and folk songs"
+    ],
+    "crafts": [
+      "Chikankari",
+      "Banarasi weaving",
+      "Zardozi",
+      "Moradabad metal craft",
+      "Wood carving"
+    ],
+    "architecture": [
+      "Mughal architecture",
+      "Awadhi architecture",
+      "Temple architecture",
+      "Buddhist sites"
+    ],
+    "places": [
+      "Agra",
+      "Varanasi",
+      "Lucknow",
+      "Ayodhya",
+      "Mathura",
+      "Prayagraj",
+      "Sarnath"
+    ],
+    "festivals": [
+      "Holi",
+      "Diwali",
+      "Ram Navami",
+      "Janmashtami",
+      "Kumbh Mela"
+    ],
+    "folklore": [
+      "Ramleela",
+      "Krishna/Braj folk traditions",
+      "Awadhi and Bhojpuri folk stories"
+    ],
+    "traditional_life": [
+      "Large regional variation exists between Awadh, Braj, Purvanchal, Bundelkhand and other areas",
+      "Crafts, pilgrimage and agriculture are major cultural themes"
+    ],
+    "processes": [
+      "Chikankari: hand embroidery using fine stitches",
+      "Zardozi: metallic-thread embroidery on fabric"
+    ],
+    "source_note": "Zardozi is listed among India's notable crafts."
+  },
+  "uttarakhand": {
+    "name": "Uttarakhand",
+    "identity": {
+      "region": "Central Himalayas",
+      "capital": "Dehradun",
+      "languages": [
+        "Hindi",
+        "Garhwali",
+        "Kumaoni"
+      ],
+      "climate": "Mountainous, ranging from subtropical foothills to alpine zones"
+    },
+    "clothing": [
+      "Ghagra and pichora",
+      "Woollen shawls",
+      "Traditional caps"
+    ],
+    "food": [
+      "Kafuli",
+      "Aloo ke gutke",
+      "Jhangore ki kheer",
+      "Bhaang ki chutney"
+    ],
+    "dance": [
+      "Chholiya",
+      "Jhora",
+      "Langvir Nritya"
+    ],
+    "music": [
+      "Garhwali folk songs",
+      "Kumaoni folk music",
+      "Jagars"
+    ],
+    "crafts": [
+      "Aipan",
+      "Ringaal bamboo craft",
+      "Wool weaving",
+      "Wood carving"
+    ],
+    "architecture": [
+      "Kath-Kuni houses",
+      "Hill temples",
+      "Traditional wooden architecture"
+    ],
+    "places": [
+      "Dehradun",
+      "Rishikesh",
+      "Nainital",
+      "Almora",
+      "Badrinath",
+      "Kedarnath",
+      "Valley of Flowers"
+    ],
+    "festivals": [
+      "Harela",
+      "Nanda Devi Raj Jat",
+      "Phool Dei",
+      "Kumbh/Haridwar gatherings"
+    ],
+    "folklore": [
+      "Jagar traditions",
+      "Mountain deity legends",
+      "Nanda Devi stories"
+    ],
+    "traditional_life": [
+      "Terraced agriculture and pastoralism are important",
+      "Village deity traditions and seasonal festivals remain culturally significant"
+    ],
+    "processes": [
+      "Aipan: applying stylized geometric and ritual motifs to prepared surfaces",
+      "Ringaal: splitting and weaving mountain bamboo"
+    ]
+  },
+  "west-bengal": {
+    "name": "West Bengal",
+    "identity": {
+      "region": "East India",
+      "capital": "Kolkata",
+      "languages": [
+        "Bengali",
+        "Hindi"
+      ],
+      "climate": "Humid tropical/subtropical, varying from Himalayas to delta and coast"
+    },
+    "clothing": [
+      "Tant saree",
+      "Baluchari saree",
+      "Dhoti-kurta"
+    ],
+    "food": [
+      "Machher jhol",
+      "Shorshe ilish",
+      "Rasgulla",
+      "Sandesh"
+    ],
+    "dance": [
+      "Chhau",
+      "Gambhira",
+      "Purulia folk dances"
+    ],
+    "music": [
+      "Baul music",
+      "Rabindra Sangeet",
+      "Nazrul Geeti",
+      "Folk music"
+    ],
+    "crafts": [
+      "Kantha embroidery",
+      "Dokra",
+      "Terracotta",
+      "Baluchari weaving",
+      "Shantipore textiles"
+    ],
+    "architecture": [
+      "Terracotta temples",
+      "Colonial architecture",
+      "Bengal rural houses"
+    ],
+    "places": [
+      "Kolkata",
+      "Darjeeling",
+      "Sundarbans",
+      "Murshidabad",
+      "Bishnupur",
+      "Shantiniketan"
+    ],
+    "festivals": [
+      "Durga Puja",
+      "Poila Boishakh",
+      "Poush Mela",
+      "Kali Puja"
+    ],
+    "folklore": [
+      "Thakurmar Jhuli-style folk storytelling",
+      "Baul spiritual traditions",
+      "Manasa Mangal traditions"
+    ],
+    "traditional_life": [
+      "Riverine, deltaic, urban and Himalayan regions have distinct cultures",
+      "Literature, music, theatre and crafts are prominent"
+    ],
+    "processes": [
+      "Kantha: layered cloth stitched with decorative and narrative patterns",
+      "Terracotta: clay shaping, drying and firing"
+    ],
+    "source_note": "Santipore textiles and Bengal crafts are highlighted in official tourism material."
+  },
+  "readme": {
+    "festival_order": "Within each month, first = larger/more prominent project pick, later = additional/local or regional pick.",
+    "date_note": "Many festivals use lunar, regional or community calendars, so month placement is approximate and should be refreshed annually for exact dates.",
+    "music_note": "music.search_query is intended for locating a lawful recording to link/embed. Do not upload copyrighted recordings unless you have permission."
+  },
+  "states": {
+    "Andhra Pradesh": {
+      "name": "Andhra Pradesh",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Bhogi",
+            "prominence": "major"
+          },
+          {
+            "name": "Kanuma",
+            "prominence": "additional"
+          }
+        ],
+        "march": [
+          {
+            "name": "Ugadi",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Sri Rama Navami",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Krishna Janmashtami",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Vinayaka Chavithi",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Dasara",
+            "prominence": "major"
+          },
+          {
+            "name": "Vijayawada Utsav",
+            "prominence": "additional"
+          }
+        ],
+        "november": [
+          {
+            "name": "Karthika Deepam",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Kuchipudi music",
+          "tradition": "Classical dance accompaniment",
+          "search_query": "Andhra Pradesh Kuchipudi music traditional"
+        },
+        {
+          "name": "Burrakatha",
+          "tradition": "Folk storytelling",
+          "search_query": "Andhra Pradesh Burrakatha folk music"
+        },
+        {
+          "name": "Harikatha",
+          "tradition": "Devotional storytelling",
+          "search_query": "Andhra Pradesh Harikatha"
+        }
+      ]
+    },
+    "Arunachal Pradesh": {
+      "name": "Arunachal Pradesh",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Si-Donyi",
+            "prominence": "major"
+          },
+          {
+            "name": "Losar",
+            "prominence": "additional"
+          }
+        ],
+        "february": [
+          {
+            "name": "Nyokum Yullo",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Mopin",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Dree",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Solung",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Tawang Festival",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Loku",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Monpa Buddhist chanting",
+          "tradition": "Monastic tradition",
+          "search_query": "Arunachal Pradesh Monpa Buddhist chanting"
+        },
+        {
+          "name": "Ponung songs",
+          "tradition": "Adi community tradition",
+          "search_query": "Arunachal Pradesh Ponung folk song"
+        },
+        {
+          "name": "Bardo Chham music",
+          "tradition": "Masked dance accompaniment",
+          "search_query": "Arunachal Pradesh Bardo Chham music"
+        }
+      ]
+    },
+    "Assam": {
+      "name": "Assam",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Magh Bihu / Bhogali Bihu",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Ali-Aye-Ligang",
+            "prominence": "major"
+          },
+          {
+            "name": "Doul Utsav",
+            "prominence": "additional"
+          }
+        ],
+        "april": [
+          {
+            "name": "Rongali Bihu / Bohag Bihu",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Kati Bihu / Kongali Bihu",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Raas Mahotsav",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Bihu songs",
+          "tradition": "Folk songs",
+          "search_query": "Assam Bihu traditional song"
+        },
+        {
+          "name": "Borgeet",
+          "tradition": "Vaishnav devotional music",
+          "search_query": "Assam Borgeet"
+        },
+        {
+          "name": "Ojapali",
+          "tradition": "Narrative performance",
+          "search_query": "Assam Ojapali traditional music"
+        }
+      ]
+    },
+    "Bihar": {
+      "name": "Bihar",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Makar Sankranti",
+            "prominence": "major"
+          }
+        ],
+        "february": [
+          {
+            "name": "Saraswati Puja",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Holi",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Jitiya",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Durga Puja",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Chhath Puja",
+            "prominence": "major"
+          },
+          {
+            "name": "Sonepur Mela",
+            "prominence": "additional"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Bidesia",
+          "tradition": "Folk theatre/music",
+          "search_query": "Bihar Bidesia folk music"
+        },
+        {
+          "name": "Sohar",
+          "tradition": "Ceremonial folk songs",
+          "search_query": "Bihar Sohar folk song"
+        },
+        {
+          "name": "Kajri",
+          "tradition": "Monsoon folk music",
+          "search_query": "Bihar Kajri folk music"
+        }
+      ]
+    },
+    "Chhattisgarh": {
+      "name": "Chhattisgarh",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Cherchera",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Madai fairs",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Hareli",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Teeja",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Pola",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Bastar Dussehra",
+            "prominence": "major"
+          }
+        ],
+        "december": [
+          {
+            "name": "Madai festivals",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Pandavani",
+          "tradition": "Narrative singing",
+          "search_query": "Chhattisgarh Pandavani music"
+        },
+        {
+          "name": "Raut Nacha music",
+          "tradition": "Folk dance music",
+          "search_query": "Chhattisgarh Raut Nacha folk music"
+        },
+        {
+          "name": "Karma songs",
+          "tradition": "Tribal/folk music",
+          "search_query": "Chhattisgarh Karma folk song"
+        }
+      ]
+    },
+    "Goa": {
+      "name": "Goa",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Three Kings Feast",
+            "prominence": "major"
+          }
+        ],
+        "february": [
+          {
+            "name": "Goa Carnival",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Shigmo",
+            "prominence": "major"
+          }
+        ],
+        "june": [
+          {
+            "name": "São João",
+            "prominence": "major"
+          },
+          {
+            "name": "Sangodd",
+            "prominence": "additional"
+          }
+        ],
+        "july": [
+          {
+            "name": "Chikhal Kalo",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Bonderam",
+            "prominence": "major"
+          },
+          {
+            "name": "Ganesh Chaturthi",
+            "prominence": "additional"
+          }
+        ],
+        "november": [
+          {
+            "name": "Diwali",
+            "prominence": "major"
+          },
+          {
+            "name": "IFFI Goa",
+            "prominence": "additional"
+          }
+        ],
+        "december": [
+          {
+            "name": "Feast of St Francis Xavier",
+            "prominence": "major"
+          },
+          {
+            "name": "Christmas",
+            "prominence": "additional"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Mando",
+          "tradition": "Traditional Goan song",
+          "search_query": "Goa Mando traditional music"
+        },
+        {
+          "name": "Dulpod",
+          "tradition": "Goan folk song",
+          "search_query": "Goa Dulpod folk music"
+        },
+        {
+          "name": "Fugdi songs",
+          "tradition": "Women's folk tradition",
+          "search_query": "Goa Fugdi folk song"
+        }
+      ]
+    },
+    "Gujarat": {
+      "name": "Gujarat",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Uttarayan",
+            "prominence": "major"
+          }
+        ],
+        "february": [
+          {
+            "name": "Modhera Dance Festival",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Holi / Dhuleti",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Janmashtami",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Tarnetar Fair",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Navratri / Garba",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Rann Utsav",
+            "prominence": "major"
+          }
+        ],
+        "december": [
+          {
+            "name": "Rann Utsav",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Garba songs",
+          "tradition": "Folk/devotional dance music",
+          "search_query": "Gujarat traditional Garba folk music"
+        },
+        {
+          "name": "Dayro",
+          "tradition": "Folk storytelling",
+          "search_query": "Gujarat Dayro folk music"
+        },
+        {
+          "name": "Bhavai music",
+          "tradition": "Folk theatre",
+          "search_query": "Gujarat Bhavai traditional music"
+        }
+      ]
+    },
+    "Haryana": {
+      "name": "Haryana",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Lohri",
+            "prominence": "major"
+          }
+        ],
+        "february": [
+          {
+            "name": "Surajkund International Crafts Mela",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Holi",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Baisakhi",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Teej",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Navratri/Dussehra",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Diwali",
+            "prominence": "major"
+          }
+        ],
+        "december": [
+          {
+            "name": "Gita Jayanti",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Ragini",
+          "tradition": "Haryanvi folk singing",
+          "search_query": "Haryana Ragini folk music"
+        },
+        {
+          "name": "Saang",
+          "tradition": "Folk theatre",
+          "search_query": "Haryana Saang folk theatre music"
+        },
+        {
+          "name": "Dhamal",
+          "tradition": "Folk dance music",
+          "search_query": "Haryana Dhamal folk music"
+        }
+      ]
+    },
+    "Himachal Pradesh": {
+      "name": "Himachal Pradesh",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Lohri",
+            "prominence": "major"
+          }
+        ],
+        "february": [
+          {
+            "name": "Losar",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Holi",
+            "prominence": "major"
+          }
+        ],
+        "june": [
+          {
+            "name": "Shimla Summer Festival",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Minjar Fair",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Minjar Fair",
+            "prominence": "major"
+          },
+          {
+            "name": "Phulaich",
+            "prominence": "additional"
+          }
+        ],
+        "october": [
+          {
+            "name": "Kullu Dussehra",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Lavi Fair",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Nati songs",
+          "tradition": "Himachali folk dance music",
+          "search_query": "Himachal Pradesh Nati folk music"
+        },
+        {
+          "name": "Kinnauri folk songs",
+          "tradition": "Regional folk music",
+          "search_query": "Himachal Pradesh Kinnauri folk music"
+        },
+        {
+          "name": "Kullu folk music",
+          "tradition": "Regional folk music",
+          "search_query": "Himachal Pradesh Kullu folk music"
+        }
+      ]
+    },
+    "Jharkhand": {
+      "name": "Jharkhand",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Tusu Parab",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Sarhul",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Sarhul",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Karma/Karam",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Karma/Karam",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Sohrai",
+            "prominence": "major"
+          },
+          {
+            "name": "Chhath Puja",
+            "prominence": "additional"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Domkach",
+          "tradition": "Wedding folk music",
+          "search_query": "Jharkhand Domkach folk songs"
+        },
+        {
+          "name": "Karma songs",
+          "tradition": "Tribal festival music",
+          "search_query": "Jharkhand Karma folk music"
+        },
+        {
+          "name": "Nagpuri folk music",
+          "tradition": "Regional tradition",
+          "search_query": "Jharkhand Nagpuri folk music"
+        }
+      ]
+    },
+    "Karnataka": {
+      "name": "Karnataka",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Makar Sankranti / Suggi",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Ugadi",
+            "prominence": "major"
+          }
+        ],
+        "may": [
+          {
+            "name": "Karaga",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Vara Mahalakshmi",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Gowri Ganesha",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Mysuru Dasara",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Kannada Rajyotsava",
+            "prominence": "major"
+          }
+        ],
+        "december": [
+          {
+            "name": "Hampi Utsav",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Yakshagana music",
+          "tradition": "Dance-drama music",
+          "search_query": "Karnataka Yakshagana music traditional"
+        },
+        {
+          "name": "Dollu Kunitha music",
+          "tradition": "Percussion-led folk music",
+          "search_query": "Karnataka Dollu Kunitha music"
+        },
+        {
+          "name": "Sugama Sangeetha",
+          "tradition": "Kannada light music",
+          "search_query": "Karnataka Sugama Sangeetha"
+        }
+      ]
+    },
+    "Kerala": {
+      "name": "Kerala",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Makaravilakku",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Attukal Pongala",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Vishu",
+            "prominence": "major"
+          },
+          {
+            "name": "Thrissur Pooram",
+            "prominence": "additional"
+          }
+        ],
+        "july": [
+          {
+            "name": "Karkidaka observances",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Onam",
+            "prominence": "major"
+          },
+          {
+            "name": "Nehru Trophy Boat Race",
+            "prominence": "additional"
+          }
+        ],
+        "september": [
+          {
+            "name": "Onam",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Mandala season begins",
+            "prominence": "major"
+          }
+        ],
+        "december": [
+          {
+            "name": "Cochin Carnival",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Sopana Sangeetham",
+          "tradition": "Temple music",
+          "search_query": "Kerala Sopana Sangeetham"
+        },
+        {
+          "name": "Kathakali music",
+          "tradition": "Dance-drama tradition",
+          "search_query": "Kerala Kathakali music traditional"
+        },
+        {
+          "name": "Chenda Melam",
+          "tradition": "Percussion ensemble",
+          "search_query": "Kerala Chenda Melam traditional"
+        }
+      ]
+    },
+    "Madhya Pradesh": {
+      "name": "Madhya Pradesh",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Lokrang Festival",
+            "prominence": "major"
+          }
+        ],
+        "february": [
+          {
+            "name": "Khajuraho Dance Festival",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Bhagoria",
+            "prominence": "major"
+          }
+        ],
+        "june": [
+          {
+            "name": "Mahua Mahotsav",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Sanskrit Gaurav Diwas",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Navratri",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Madhya Pradesh Utsav",
+            "prominence": "major"
+          }
+        ],
+        "december": [
+          {
+            "name": "Tansen Samaroh",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Hindustani classical tradition",
+          "tradition": "Gwalior/Tansen heritage",
+          "search_query": "Madhya Pradesh Tansen Samaroh Hindustani classical music"
+        },
+        {
+          "name": "Rai folk songs",
+          "tradition": "Regional folk music",
+          "search_query": "Madhya Pradesh Rai folk music"
+        },
+        {
+          "name": "Nimari folk songs",
+          "tradition": "Regional folk music",
+          "search_query": "Madhya Pradesh Nimari folk music"
+        }
+      ]
+    },
+    "Maharashtra": {
+      "name": "Maharashtra",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Makar Sankranti",
+            "prominence": "major"
+          }
+        ],
+        "february": [
+          {
+            "name": "Shiv Jayanti celebrations",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Gudi Padwa",
+            "prominence": "major"
+          }
+        ],
+        "june": [
+          {
+            "name": "Shivrajyabhishek Sohala",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Ashadhi Ekadashi / Wari",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Mangalagaur",
+            "prominence": "major"
+          },
+          {
+            "name": "Narali Pournima",
+            "prominence": "additional"
+          }
+        ],
+        "september": [
+          {
+            "name": "Ganesh Chaturthi",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Diwali",
+            "prominence": "major"
+          }
+        ],
+        "december": [
+          {
+            "name": "Sawai Gandharva Bhimsen Mahotsav",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Lavani",
+          "tradition": "Folk performance music",
+          "search_query": "Maharashtra Lavani folk music"
+        },
+        {
+          "name": "Powada",
+          "tradition": "Ballad/storytelling",
+          "search_query": "Maharashtra Powada folk music"
+        },
+        {
+          "name": "Abhang",
+          "tradition": "Devotional songs",
+          "search_query": "Maharashtra Abhang devotional music"
+        }
+      ]
+    },
+    "Manipur": {
+      "name": "Manipur",
+      "festivals_by_month": {
+        "march": [
+          {
+            "name": "Yaoshang",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Cheiraoba",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Kang",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Lai Haraoba",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Durga Puja",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Kut",
+            "prominence": "major"
+          },
+          {
+            "name": "Ningol Chakouba",
+            "prominence": "additional"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Pung Cholom music",
+          "tradition": "Percussion/dance tradition",
+          "search_query": "Manipur Pung Cholom music"
+        },
+        {
+          "name": "Nata Sankirtana",
+          "tradition": "Vaishnav devotional music",
+          "search_query": "Manipur Nata Sankirtana"
+        },
+        {
+          "name": "Khongjom Parba",
+          "tradition": "Narrative ballad",
+          "search_query": "Manipur Khongjom Parba music"
+        }
+      ]
+    },
+    "Meghalaya": {
+      "name": "Meghalaya",
+      "festivals_by_month": {
+        "april": [
+          {
+            "name": "Shad Suk Mynsiem",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Behdeinkhlam",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Autumn Festival",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Wangala",
+            "prominence": "major"
+          }
+        ],
+        "december": [
+          {
+            "name": "Christmas",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Garo Wangala music",
+          "tradition": "Harvest music",
+          "search_query": "Meghalaya Wangala traditional music"
+        },
+        {
+          "name": "Khasi folk songs",
+          "tradition": "Khasi tradition",
+          "search_query": "Meghalaya Khasi folk music"
+        },
+        {
+          "name": "Jaintia folk music",
+          "tradition": "Jaintia tradition",
+          "search_query": "Meghalaya Jaintia folk music"
+        }
+      ]
+    },
+    "Mizoram": {
+      "name": "Mizoram",
+      "festivals_by_month": {
+        "march": [
+          {
+            "name": "Chapchar Kut",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Mim Kut",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Mim Kut",
+            "prominence": "major"
+          }
+        ],
+        "december": [
+          {
+            "name": "Pawl Kut",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Mizo folk songs",
+          "tradition": "Community tradition",
+          "search_query": "Mizoram traditional Mizo folk songs"
+        },
+        {
+          "name": "Cheraw dance music",
+          "tradition": "Bamboo dance accompaniment",
+          "search_query": "Mizoram Cheraw dance music"
+        },
+        {
+          "name": "Khuallam music",
+          "tradition": "Traditional dance music",
+          "search_query": "Mizoram Khuallam traditional music"
+        }
+      ]
+    },
+    "Nagaland": {
+      "name": "Nagaland",
+      "festivals_by_month": {
+        "february": [
+          {
+            "name": "Sekrenyi",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Aoleang Monyu",
+            "prominence": "major"
+          }
+        ],
+        "may": [
+          {
+            "name": "Moatsu",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Tuluni",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Tsungremong",
+            "prominence": "major"
+          }
+        ],
+        "december": [
+          {
+            "name": "Hornbill Festival",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Naga folk songs",
+          "tradition": "Community traditions",
+          "search_query": "Nagaland Naga folk songs traditional"
+        },
+        {
+          "name": "Hornbill Festival music",
+          "tradition": "Multiple Naga traditions",
+          "search_query": "Nagaland Hornbill Festival traditional music"
+        },
+        {
+          "name": "Ao folk music",
+          "tradition": "Ao Naga tradition",
+          "search_query": "Nagaland Ao folk music"
+        }
+      ]
+    },
+    "Odisha": {
+      "name": "Odisha",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Dhanu Jatra",
+            "prominence": "major"
+          }
+        ],
+        "february": [
+          {
+            "name": "Magha Saptami",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Dola Purnima",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Pana Sankranti",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Ratha Yatra",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Nuakhai",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Durga Puja",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Boita Bandana",
+            "prominence": "major"
+          }
+        ],
+        "december": [
+          {
+            "name": "Konark Festival",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Odissi music",
+          "tradition": "Classical music tradition",
+          "search_query": "Odisha Odissi classical music"
+        },
+        {
+          "name": "Dalkhai songs",
+          "tradition": "Western Odisha folk music",
+          "search_query": "Odisha Dalkhai folk music"
+        },
+        {
+          "name": "Pala",
+          "tradition": "Narrative musical tradition",
+          "search_query": "Odisha Pala traditional music"
+        }
+      ]
+    },
+    "Punjab": {
+      "name": "Punjab",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Lohri",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Hola Mohalla",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Vaisakhi",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Teej folk celebrations",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Giddha seasonal programs",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Dussehra",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Guru Nanak Gurpurab",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Bhangra music",
+          "tradition": "Punjabi folk dance music",
+          "search_query": "Punjab traditional Bhangra folk music"
+        },
+        {
+          "name": "Giddha songs",
+          "tradition": "Women's folk tradition",
+          "search_query": "Punjab Giddha folk songs"
+        },
+        {
+          "name": "Tumbi music",
+          "tradition": "Folk instrumental tradition",
+          "search_query": "Punjab Tumbi folk music"
+        }
+      ]
+    },
+    "Rajasthan": {
+      "name": "Rajasthan",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Bikaner Camel Festival",
+            "prominence": "major"
+          },
+          {
+            "name": "Jaipur Literature Festival",
+            "prominence": "additional"
+          }
+        ],
+        "february": [
+          {
+            "name": "Desert Festival",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Gangaur",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Gangaur",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Teej",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Navratri/Dussehra",
+            "prominence": "major"
+          },
+          {
+            "name": "Rajasthan International Folk Festival",
+            "prominence": "additional"
+          }
+        ],
+        "november": [
+          {
+            "name": "Pushkar Camel Fair",
+            "prominence": "major"
+          },
+          {
+            "name": "Rajasthan International Folk Festival",
+            "prominence": "additional"
+          }
+        ],
+        "december": [
+          {
+            "name": "Winter Festival",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Manganiyar music",
+          "tradition": "Hereditary folk tradition",
+          "search_query": "Rajasthan Manganiyar folk music"
+        },
+        {
+          "name": "Langa music",
+          "tradition": "Hereditary folk tradition",
+          "search_query": "Rajasthan Langa folk music"
+        },
+        {
+          "name": "Maand",
+          "tradition": "Rajasthani folk/semi-classical style",
+          "search_query": "Rajasthan Maand folk music"
+        }
+      ]
+    },
+    "Sikkim": {
+      "name": "Sikkim",
+      "festivals_by_month": {
+        "february": [
+          {
+            "name": "Losar",
+            "prominence": "major"
+          }
+        ],
+        "may": [
+          {
+            "name": "Saga Dawa",
+            "prominence": "major"
+          }
+        ],
+        "june": [
+          {
+            "name": "Saga Dawa",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Pang Lhabsol",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Tendong Lho Rum Faat",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Dasain",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Tihar",
+            "prominence": "major"
+          }
+        ],
+        "december": [
+          {
+            "name": "Losoong / Namsoong",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Lepcha folk songs",
+          "tradition": "Lepcha tradition",
+          "search_query": "Sikkim Lepcha folk music"
+        },
+        {
+          "name": "Tamang Selo",
+          "tradition": "Tamang community music",
+          "search_query": "Sikkim Tamang Selo music"
+        },
+        {
+          "name": "Bhutia folk music",
+          "tradition": "Bhutia tradition",
+          "search_query": "Sikkim Bhutia folk music"
+        }
+      ]
+    },
+    "Tamil Nadu": {
+      "name": "Tamil Nadu",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Pongal",
+            "prominence": "major"
+          },
+          {
+            "name": "Jallikattu season",
+            "prominence": "additional"
+          }
+        ],
+        "march": [
+          {
+            "name": "Panguni Uthiram",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Tamil Puthandu",
+            "prominence": "major"
+          },
+          {
+            "name": "Chithirai Festival",
+            "prominence": "additional"
+          }
+        ],
+        "may": [
+          {
+            "name": "Yercaud Summer Festival",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Aadi observances",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Aadi observances",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Vinayaka Chaturthi",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Navaratri / Golu",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Karthigai Deepam",
+            "prominence": "major"
+          }
+        ],
+        "december": [
+          {
+            "name": "Margazhi music and dance season",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Carnatic music",
+          "tradition": "South Indian classical music",
+          "search_query": "Tamil Nadu Carnatic music traditional"
+        },
+        {
+          "name": "Nadaswaram and Thavil",
+          "tradition": "Temple/ceremonial music",
+          "search_query": "Tamil Nadu Nadaswaram Thavil traditional music"
+        },
+        {
+          "name": "Villupattu",
+          "tradition": "Narrative folk music",
+          "search_query": "Tamil Nadu Villupattu folk music"
+        }
+      ]
+    },
+    "Telangana": {
+      "name": "Telangana",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Sankranti",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Ugadi",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Bonalu",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Bonalu",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Bathukamma",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Bathukamma",
+            "prominence": "major"
+          },
+          {
+            "name": "Dasara",
+            "prominence": "additional"
+          }
+        ],
+        "november": [
+          {
+            "name": "Medaram-related events when scheduled",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Oggu Katha",
+          "tradition": "Narrative folk music",
+          "search_query": "Telangana Oggu Katha folk music"
+        },
+        {
+          "name": "Dappu music",
+          "tradition": "Percussion-led folk tradition",
+          "search_query": "Telangana Dappu folk music"
+        },
+        {
+          "name": "Bathukamma songs",
+          "tradition": "Women's seasonal songs",
+          "search_query": "Telangana Bathukamma folk songs"
+        }
+      ]
+    },
+    "Tripura": {
+      "name": "Tripura",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Pous Parban",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Garia Puja",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Kharchi Puja",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Ker Puja",
+            "prominence": "major"
+          }
+        ],
+        "september": [
+          {
+            "name": "Ker Puja",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Durga Puja",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Diwali",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Garia songs",
+          "tradition": "Tribal seasonal music",
+          "search_query": "Tripura Garia folk songs"
+        },
+        {
+          "name": "Hojagiri music",
+          "tradition": "Reang/Bru dance music",
+          "search_query": "Tripura Hojagiri music"
+        },
+        {
+          "name": "Kharchi temple music",
+          "tradition": "Temple tradition",
+          "search_query": "Tripura Kharchi Puja traditional music"
+        }
+      ]
+    },
+    "Uttar Pradesh": {
+      "name": "Uttar Pradesh",
+      "festivals_by_month": {
+        "february": [
+          {
+            "name": "Taj Mahotsav",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Holi",
+            "prominence": "major"
+          },
+          {
+            "name": "Lathmar Holi",
+            "prominence": "additional"
+          }
+        ],
+        "april": [
+          {
+            "name": "Ram Navami",
+            "prominence": "major"
+          }
+        ],
+        "may": [
+          {
+            "name": "Buddha Purnima",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Sawan/Jhula traditions",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Janmashtami",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Ramleela and Dussehra",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Dev Deepawali",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Kajri",
+          "tradition": "Monsoon folk song",
+          "search_query": "Uttar Pradesh Kajri folk music"
+        },
+        {
+          "name": "Biraha",
+          "tradition": "Folk ballad",
+          "search_query": "Uttar Pradesh Biraha folk music"
+        },
+        {
+          "name": "Qawwali",
+          "tradition": "Sufi musical tradition",
+          "search_query": "Uttar Pradesh Awadh Qawwali traditional music"
+        }
+      ]
+    },
+    "Uttarakhand": {
+      "name": "Uttarakhand",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Makar Sankranti / Ghughutiya",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Phool Dei",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Phool Dei",
+            "prominence": "major"
+          },
+          {
+            "name": "Bikhauti",
+            "prominence": "additional"
+          }
+        ],
+        "june": [
+          {
+            "name": "Ganga Dussehra",
+            "prominence": "major"
+          }
+        ],
+        "july": [
+          {
+            "name": "Harela",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Nanda Devi Raj Jat when scheduled",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Nanda Devi Mela",
+            "prominence": "major"
+          }
+        ],
+        "november": [
+          {
+            "name": "Igas Bagwal",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Jagar",
+          "tradition": "Ritual/narrative singing",
+          "search_query": "Uttarakhand Jagar folk music"
+        },
+        {
+          "name": "Garhwali folk songs",
+          "tradition": "Regional folk music",
+          "search_query": "Uttarakhand Garhwali folk songs"
+        },
+        {
+          "name": "Kumaoni folk songs",
+          "tradition": "Regional folk music",
+          "search_query": "Uttarakhand Kumaoni folk music"
+        }
+      ]
+    },
+    "West Bengal": {
+      "name": "West Bengal",
+      "festivals_by_month": {
+        "january": [
+          {
+            "name": "Poush Mela",
+            "prominence": "major"
+          },
+          {
+            "name": "Gangasagar Mela",
+            "prominence": "additional"
+          }
+        ],
+        "february": [
+          {
+            "name": "Saraswati Puja",
+            "prominence": "major"
+          }
+        ],
+        "march": [
+          {
+            "name": "Dol Jatra / Holi",
+            "prominence": "major"
+          }
+        ],
+        "april": [
+          {
+            "name": "Poila Boishakh",
+            "prominence": "major"
+          },
+          {
+            "name": "Charak Gajan",
+            "prominence": "additional"
+          }
+        ],
+        "july": [
+          {
+            "name": "Rath Yatra",
+            "prominence": "major"
+          }
+        ],
+        "august": [
+          {
+            "name": "Janmashtami",
+            "prominence": "major"
+          }
+        ],
+        "october": [
+          {
+            "name": "Durga Puja",
+            "prominence": "major"
+          },
+          {
+            "name": "Kali Puja",
+            "prominence": "additional"
+          }
+        ],
+        "november": [
+          {
+            "name": "Kali Puja",
+            "prominence": "major"
+          },
+          {
+            "name": "Jagaddhatri Puja",
+            "prominence": "additional"
+          }
+        ],
+        "december": [
+          {
+            "name": "Poush Mela",
+            "prominence": "major"
+          }
+        ]
+      },
+      "music": [
+        {
+          "name": "Baul music",
+          "tradition": "Mystic folk tradition",
+          "search_query": "West Bengal Baul music traditional"
+        },
+        {
+          "name": "Rabindra Sangeet",
+          "tradition": "Bengali art-song tradition",
+          "search_query": "West Bengal Rabindra Sangeet"
+        },
+        {
+          "name": "Bhatiyali",
+          "tradition": "Riverine folk songs",
+          "search_query": "West Bengal Bhatiyali folk music"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,629 @@
+/* =========================================
+   BASE
+========================================= */
+
+.culture-states-page {
+  min-height: 100vh;
+  background: #17110e;
+  color: #f3e9dc;
+  overflow-x: hidden;
+
+  animation: culturePageEnter 0.55s ease-out;
+}
+
+@keyframes culturePageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.culture-navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 88px;
+
+  padding: 0 8%;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  z-index: 20;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.culture-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+.culture-logo .logo-symbol {
+  font-size: 28px;
+  color: #c99546;
+}
+
+.culture-logo div {
+  display: flex;
+  flex-direction: column;
+}
+
+.culture-logo strong {
+  font-family: Georgia, serif;
+  font-size: 21px;
+  font-weight: 400;
+  color: #d2a052;
+}
+
+.culture-logo small {
+  font-size: 7px;
+  letter-spacing: 2px;
+  color: #c2b2a4;
+}
+
+.culture-navbar nav {
+  display: flex;
+  gap: 30px;
+}
+
+.culture-navbar nav a {
+  color: #ddd0c3;
+  text-decoration: none;
+
+  font-size: 12px;
+  letter-spacing: 1px;
+
+  transition: color 0.3s ease;
+}
+
+.culture-navbar nav a:hover {
+  color: #d19b4c;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.culture-hero {
+  position: relative;
+
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+
+  padding: 150px 8% 100px;
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+ background:
+  linear-gradient(
+    90deg,
+    rgba(23, 17, 14, 0.96) 0%,
+    rgba(23, 17, 14, 0.82) 45%,
+    rgba(23, 17, 14, 0.55) 100%
+  ),
+  linear-gradient(
+    180deg,
+    rgba(23, 17, 14, 0.25),
+    rgba(23, 17, 14, 0.75)
+  ),
+  url("https://commons.wikimedia.org/wiki/Special:FilePath/Indian-Food-wikicont.jpg");
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.culture-hero-content {
+  position: relative;
+  z-index: 3;
+
+  max-width: 800px;
+}
+
+.culture-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  margin-bottom: 25px;
+
+  color: #c28d43;
+
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+
+.culture-eyebrow::before {
+  content: "";
+
+  width: 45px;
+  height: 1px;
+
+  background: #b98236;
+}
+
+.culture-hero-content h1 {
+  margin: 0;
+
+  font-family: Georgia, serif;
+
+  font-size: clamp(80px, 10vw, 145px);
+  font-weight: 400;
+
+  line-height: 0.82;
+  letter-spacing: -6px;
+}
+
+.culture-hero-content h1 i {
+  color: #c9913e;
+  font-style: italic;
+}
+
+.culture-hero-content p {
+  max-width: 580px;
+
+  margin-top: 40px;
+  padding-left: 20px;
+
+  border-left: 1px solid rgba(194, 141, 66, 0.55);
+
+  color: #d2c2b2;
+
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.culture-hero-number {
+  position: absolute;
+
+  right: 5%;
+  top: 50%;
+
+  transform: translateY(-35%);
+
+  font-family: Georgia, serif;
+
+  font-size: clamp(300px, 40vw, 650px);
+
+  line-height: 0.7;
+
+  color: rgba(210, 155, 70, 0.045);
+
+  pointer-events: none;
+
+  z-index: 1;
+}
+
+
+/* =========================================
+   STATE SELECTION
+========================================= */
+
+.culture-selection {
+  position: relative;
+
+  padding: 120px 8% 150px;
+
+  background: #17110e;
+
+  border-radius: 45px 45px 0 0;
+
+  z-index: 5;
+}
+
+.culture-heading {
+  display: grid;
+
+  grid-template-columns: 1fr 0.7fr;
+
+  gap: 10%;
+
+  align-items: end;
+
+  margin-bottom: 70px;
+}
+
+.section-label {
+  display: block;
+
+  color: #c18b3c;
+
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+
+.culture-heading h2 {
+  margin: 20px 0 0;
+
+  font-family: Georgia, serif;
+
+  font-size: clamp(55px, 7vw, 100px);
+
+  font-weight: 400;
+
+  line-height: 0.88;
+  letter-spacing: -5px;
+}
+
+.culture-heading h2 i {
+  color: #c9913e;
+  font-style: italic;
+}
+
+.culture-heading p {
+  max-width: 450px;
+
+  margin: 0;
+
+  color: #a99a8e;
+
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   STATES GRID
+========================================= */
+
+.states-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 16px;
+
+  width: 100%;
+  max-width: 1250px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================================
+   STATE CARD
+========================================= */
+
+.state-card {
+  position: relative;
+
+  min-height: 260px;
+
+  padding: 28px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  text-decoration: none;
+
+  color: #f4eadf;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transition:
+    transform 0.45s ease,
+    border-color 0.35s ease,
+    box-shadow 0.45s ease,
+    background-position 0.8s ease;
+}
+
+.state-card:hover {
+  transform: translateY(-7px);
+
+  border-color: rgba(255, 255, 255, 0.45);
+
+  box-shadow:
+    0 20px 45px rgba(0, 0, 0, 0.35);
+
+  background-position: center 45%;
+}
+
+
+/* =========================================
+   STATE COLORS
+========================================= */
+
+/* Rajasthan — Burnt Ochre */
+
+.rajasthan {
+  background-color: #9a5b35;
+}
+
+
+/* Gujarat — Terracotta */
+
+.gujarat {
+  background-color: #a9674d;
+}
+
+
+/* Maharashtra — Brown */
+
+.maharashtra {
+  background-color: #654b3b;
+}
+
+
+/* Karnataka — Olive Brown */
+
+.karnataka {
+  background-color: #67633f;
+}
+
+
+/* Kerala — Muted Green */
+
+.kerala {
+  background-color: #526b54;
+}
+
+
+/* Tamil Nadu — Warm Brown */
+
+.tamilnadu {
+  background-color: #79533d;
+}
+
+
+/* Odisha — Sandstone */
+
+.odisha {
+  background-color: #a47759;
+}
+
+
+/* Assam — Forest Green */
+
+.assam {
+  background-color: #3f6246;
+}
+
+
+/* Himachal Pradesh — Muted Blue */
+
+.himachal {
+  background-color: #64778a;
+}
+
+
+/* Punjab — Dusty Gold */
+
+.punjab {
+  background-color: #a18a55;
+}
+
+
+/* West Bengal — Muted Red */
+
+.westbengal {
+  background-color: #874f4b;
+}
+
+
+/* =========================================
+   CARD CONTENT
+========================================= */
+
+.state-number {
+  align-self: flex-end;
+
+  position: relative;
+
+  z-index: 2;
+
+  font-family: Georgia, serif;
+
+  font-size: 42px;
+
+  line-height: 1;
+
+  color: rgba(255, 255, 255, 0.55);
+
+  text-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.state-card-content {
+  position: relative;
+
+  z-index: 2;
+
+  text-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+.state-subtitle {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-size: 9px;
+
+  letter-spacing: 2.5px;
+
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.state-card h3 {
+  margin: 0 0 25px;
+
+  font-family: Georgia, serif;
+
+  font-size: 32px;
+
+  font-weight: 400;
+
+  line-height: 1;
+}
+
+.state-explore {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  font-size: 9px;
+
+  letter-spacing: 2.5px;
+
+  color: #ffffff;
+}
+
+.state-explore span {
+  font-size: 16px;
+
+  transition: transform 0.25s ease;
+}
+
+.state-card:hover .state-explore span {
+  transform: translate(4px, -4px);
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.culture-footer {
+  padding: 35px 8%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  background: #17110e;
+
+  border-top: 1px solid rgba(205, 175, 137, 0.15);
+
+  color: #806e61;
+
+  font-size: 9px;
+
+  letter-spacing: 2px;
+}
+
+.culture-footer a {
+  color: #b98742;
+
+  text-decoration: none;
+
+  transition: color 0.3s ease;
+}
+
+.culture-footer a:hover {
+  color: #d19b4c;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 800px) {
+
+  .culture-navbar {
+    height: 75px;
+
+    padding: 0 7%;
+  }
+
+
+  .culture-navbar nav {
+    display: none;
+  }
+
+
+  .culture-hero {
+    min-height: 100svh;
+
+    padding: 120px 7% 80px;
+  }
+
+
+  .culture-hero-content h1 {
+    font-size: clamp(70px, 17vw, 110px);
+
+    letter-spacing: -4px;
+  }
+
+
+  .culture-hero-content p {
+    font-size: 14px;
+  }
+
+
+  .culture-selection {
+    padding: 90px 7% 110px;
+
+    border-radius: 30px 30px 0 0;
+  }
+
+
+  .culture-heading {
+    display: block;
+
+    margin-bottom: 45px;
+  }
+
+
+  .culture-heading p {
+    margin-top: 30px;
+  }
+
+
+  .states-grid {
+    grid-template-columns: 1fr;
+
+    gap: 14px;
+  }
+
+
+  .state-card {
+    min-height: 220px;
+  }
+
+
+  .culture-footer {
+    padding: 30px 7%;
+
+    flex-direction: column;
+
+    gap: 20px;
+  }
+
+}

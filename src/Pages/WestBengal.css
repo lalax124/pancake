@@ -1,0 +1,701 @@
+/* =========================================
+   BASE
+========================================= */
+
+.west-bengal-page {
+  min-height: 100vh;
+  background: #17110e;
+  color: #f3e9dc;
+  overflow-x: hidden;
+
+  animation: westBengalEnter 0.75s ease-out;
+}
+
+@keyframes westBengalEnter {
+  from {
+    opacity: 0;
+    transform: translateX(45px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.wb-navbar {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 88px;
+
+  padding: 0 8%;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  z-index: 20;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.wb-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+.wb-logo-symbol {
+  font-size: 28px;
+  color: #c99546;
+}
+
+.wb-logo div {
+  display: flex;
+  flex-direction: column;
+}
+
+.wb-logo strong {
+  font-family: Georgia, serif;
+
+  font-size: 21px;
+  font-weight: 400;
+
+  color: #d2a052;
+}
+
+.wb-logo small {
+  font-size: 7px;
+  letter-spacing: 2px;
+
+  color: #c2b2a4;
+}
+
+.wb-navbar nav {
+  display: flex;
+  gap: 30px;
+}
+
+.wb-navbar nav a {
+  color: #ddd0c3;
+
+  text-decoration: none;
+
+  font-size: 12px;
+  letter-spacing: 1px;
+
+  transition: color 0.3s ease;
+}
+
+.wb-navbar nav a:hover {
+  color: #d19b4c;
+}
+/* =========================================
+   FOOD HERO
+========================================= */
+
+.wb-food-hero {
+  position: relative;
+
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+
+  padding: 110px 8% 90px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(23, 17, 14, 0.94) 0%,
+      rgba(23, 17, 14, 0.78) 35%,
+      rgba(23, 17, 14, 0.38) 68%,
+      rgba(23, 17, 14, 0.25) 100%
+    ),
+    url("https://commons.wikimedia.org/wiki/Special:FilePath/Bengali%20traditional%20food.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+}
+
+.wb-food-hero-content {
+  position: relative;
+
+  z-index: 3;
+
+  max-width: 760px;
+
+  margin-top: -110px;
+}
+
+.wb-eyebrow {
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+
+  margin-bottom: 25px;
+
+  color: #c28d43;
+
+  font-size: 10px;
+
+  letter-spacing: 3px;
+}
+
+.wb-eyebrow::before {
+  content: "";
+
+  width: 45px;
+  height: 1px;
+
+  background: #b98236;
+}
+
+.wb-food-hero h1 {
+  margin: 0;
+
+  font-family: Georgia, serif;
+
+  font-size: clamp(80px, 10vw, 145px);
+
+  font-weight: 400;
+
+  line-height: 0.82;
+
+  letter-spacing: -6px;
+}
+
+.wb-food-hero h1 i {
+  color: #c9913e;
+  font-style: italic;
+}
+
+.wb-food-hero p {
+  max-width: 570px;
+
+  margin-top: 40px;
+
+  padding-left: 20px;
+
+  border-left: 1px solid rgba(194, 141, 66, 0.55);
+
+  color: #d2c2b2;
+
+  font-size: 16px;
+
+  line-height: 1.8;
+}
+
+
+
+/* =========================================
+   FOOD SECTION
+========================================= */
+
+.wb-food-section {
+  position: relative;
+
+  padding: 130px 8% 160px;
+
+  background: #17110e;
+
+  border-radius: 45px 45px 0 0;
+
+  z-index: 5;
+}
+
+.wb-section-heading {
+  display: grid;
+
+  grid-template-columns: 1fr 0.7fr;
+
+  gap: 10%;
+
+  align-items: end;
+
+  margin-bottom: 75px;
+}
+
+.wb-section-label {
+  display: block;
+
+  color: #c18b3c;
+
+  font-size: 10px;
+
+  letter-spacing: 3px;
+}
+
+.wb-section-heading h2 {
+  margin: 20px 0 0;
+
+  font-family: Georgia, serif;
+
+  font-size: clamp(60px, 7vw, 100px);
+
+  font-weight: 400;
+
+  line-height: 0.88;
+
+  letter-spacing: -5px;
+}
+
+.wb-section-heading h2 i {
+  color: #c9913e;
+
+  font-style: italic;
+}
+
+.wb-section-heading > p {
+  max-width: 450px;
+
+  margin: 0;
+
+  color: #a99a8e;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   FOOD GRID
+========================================= */
+
+.wb-food-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 18px;
+
+  max-width: 1250px;
+
+  margin: 0 auto;
+}
+
+.wb-food-card {
+    display: block;
+
+  text-decoration: none;
+  color: inherit;
+
+  min-width: 0;
+  min-height: 390px;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.wb-food-image {
+  position: relative;
+
+  width: 100%;
+  height: 390px;
+
+  background-size: cover;
+  background-position: center;
+
+  transition:
+    transform 0.7s ease,
+    background-position 0.7s ease;
+}
+
+.wb-food-card:hover .wb-food-image {
+  background-position: center 45%;
+  transform: scale(1.03);
+}
+
+.wb-food-number {
+  position: absolute;
+
+  top: 25px;
+  right: 28px;
+
+  font-family: Georgia, serif;
+
+  font-size: 38px;
+
+  color: rgba(255, 255, 255, 0.55);
+
+  text-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.wb-food-info {
+  position: absolute;
+
+  left: 30px;
+  right: 30px;
+  bottom: 28px;
+}
+
+.wb-food-info h3 {
+  margin: 0 0 12px;
+
+  font-family: Georgia, serif;
+
+  font-size: 34px;
+
+  font-weight: 400;
+}
+
+.wb-food-info p {
+  max-width: 480px;
+
+  margin: 0;
+
+  color: rgba(255, 255, 255, 0.72);
+
+  font-size: 13px;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================
+   CLOTHING SECTION
+========================================= */
+
+.wb-clothing-section {
+  position: relative;
+  padding: 120px 8%;
+  background: #211510;
+  color: #f3e9dc;
+}
+
+.wb-clothing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 70px;
+}
+
+.wb-clothing-card {
+  min-width: 0;
+}
+
+.wb-clothing-image {
+  position: relative;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  border: 1px solid rgba(255, 255, 255, 0.14);
+
+  transition:
+    transform 0.45s ease,
+    border-color 0.35s ease,
+    box-shadow 0.45s ease,
+    background-position 0.8s ease;
+}
+
+.wb-clothing-card:hover .wb-clothing-image {
+  transform: translateY(-7px);
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+  background-position: center 45%;
+}
+
+.wb-clothing-number {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+
+  font-family: Georgia, serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+
+  color: #c28d42;
+}
+
+.wb-clothing-info {
+  position: absolute;
+  left: 26px;
+  right: 26px;
+  bottom: 26px;
+
+  z-index: 2;
+}
+
+.wb-clothing-info h3 {
+  margin: 0 0 8px;
+
+  font-family: Georgia, serif;
+  font-size: 30px;
+  font-weight: 400;
+
+  color: #f4eadf;
+}
+
+.wb-clothing-info p {
+  max-width: 360px;
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: rgba(244, 234, 223, 0.72);
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 900px) {
+
+  .wb-clothing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wb-clothing-image {
+    height: 430px;
+  }
+
+}
+/* =========================================
+   CLOTHING CONTENT
+========================================= */
+
+.wb-clothing-content {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  padding: 100px 10%;
+
+  box-sizing: border-box;
+}
+
+.wb-clothing-content h2 {
+  margin: 25px 0 35px;
+
+  font-family: Georgia, serif;
+
+  font-size: clamp(60px, 7vw, 105px);
+
+  font-weight: 400;
+
+  line-height: 0.88;
+
+  letter-spacing: -5px;
+}
+
+.wb-clothing-content h2 i {
+  color: #c9913e;
+
+  font-style: italic;
+}
+
+.wb-clothing-content > p {
+  max-width: 500px;
+
+  color: #c4b5a8;
+
+  font-size: 15px;
+
+  line-height: 1.9;
+}
+
+
+/* =========================================
+   CLOTHING DETAILS
+========================================= */
+
+.wb-clothing-details {
+  margin-top: 55px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.wb-clothing-details > div {
+  padding: 22px 0;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+
+  display: grid;
+
+  grid-template-columns: 45px 1fr;
+
+  column-gap: 15px;
+}
+
+.wb-clothing-details span {
+  grid-row: span 2;
+
+  font-family: Georgia, serif;
+
+  color: #b98742;
+
+  font-size: 18px;
+}
+
+.wb-clothing-details strong {
+  font-family: Georgia, serif;
+
+  font-size: 20px;
+
+  font-weight: 400;
+}
+
+.wb-clothing-details p {
+  margin: 6px 0 0;
+
+  color: #94857a;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.wb-footer {
+  padding: 35px 8%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  background: #17110e;
+
+  border-top: 1px solid rgba(205, 175, 137, 0.15);
+
+  color: #806e61;
+
+  font-size: 9px;
+
+  letter-spacing: 2px;
+}
+
+.wb-footer a {
+  color: #b98742;
+
+  text-decoration: none;
+
+  transition: color 0.3s ease;
+}
+
+.wb-footer a:hover {
+  color: #d19b4c;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 800px) {
+
+  .wb-navbar {
+    height: 75px;
+
+    padding: 0 7%;
+  }
+
+  .wb-navbar nav {
+    display: none;
+  }
+
+  .wb-food-hero {
+    min-height: 100svh;
+
+    padding: 120px 7% 80px;
+  }
+
+  .wb-food-hero h1 {
+    font-size: clamp(70px, 17vw, 110px);
+
+    letter-spacing: -4px;
+  }
+
+  .wb-food-hero p {
+    font-size: 14px;
+  }
+
+  .wb-food-section {
+    padding: 90px 7% 110px;
+
+    border-radius: 30px 30px 0 0;
+  }
+
+  .wb-section-heading {
+    display: block;
+
+    margin-bottom: 45px;
+  }
+
+  .wb-section-heading > p {
+    margin-top: 30px;
+  }
+
+  .wb-food-grid {
+    grid-template-columns: 1fr;
+
+    gap: 14px;
+  }
+
+  .wb-food-card {
+    min-height: 300px;
+  }
+
+  .wb-food-image {
+    height: 300px;
+  }
+
+  .wb-clothing-section {
+    grid-template-columns: 1fr;
+  }
+
+  .wb-clothing-image {
+    min-height: 600px;
+  }
+
+  .wb-clothing-content {
+    padding: 80px 7%;
+  }
+
+  .wb-clothing-content h2 {
+    font-size: clamp(60px, 15vw, 100px);
+  }
+
+  .wb-footer {
+    padding: 30px 7%;
+
+    flex-direction: column;
+
+    gap: 20px;
+  }
+}

@@ -1,0 +1,285 @@
+.heritage-game {
+  min-height: 100vh;
+  background: #120e0b;
+  color: #f4ead8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.game-card {
+  width: 850px;
+  max-width: 100%;
+  background: #18120e;
+  border: 1px solid #76552f;
+  border-radius: 18px;
+  padding: 35px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
+}
+
+/* HEADER */
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #493522;
+  padding-bottom: 20px;
+}
+
+.small-title {
+  color: #c87928;
+  font-size: 13px;
+  letter-spacing: 3px;
+  margin: 0 0 7px;
+}
+
+.game-header h1 {
+  margin: 0;
+  color: #f4ead8;
+  font-family: Georgia, serif;
+  font-size: 34px;
+}
+
+.score {
+  border: 1px solid #9d7035;
+  border-radius: 12px;
+  padding: 10px 20px;
+  text-align: center;
+  min-width: 80px;
+}
+
+.score span {
+  display: block;
+  color: #a99a87;
+  font-size: 12px;
+}
+
+.score strong {
+  display: block;
+  color: #d99a43;
+  font-size: 25px;
+  margin-top: 3px;
+}
+
+/* PROGRESS */
+
+.progress-info {
+  margin-top: 25px;
+  color: #b7a897;
+  font-size: 14px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 7px;
+  background: #30251c;
+  border-radius: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #c87928;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+
+/* QUESTION */
+
+.question-box {
+  margin-top: 30px;
+  padding: 28px;
+  background: #211812;
+  border: 1px solid #4e3825;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.question-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.question-box h2 {
+  color: #f2e7d4;
+  font-family: Georgia, serif;
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+/* OPTIONS */
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  background: #1d1510;
+  border: 1px solid #62462b;
+  color: #e8dcc9;
+
+  padding: 17px;
+  border-radius: 10px;
+
+  font-size: 16px;
+  text-align: left;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.option:hover {
+  border-color: #c87928;
+  background: #261b13;
+  transform: translateY(-2px);
+}
+
+.option-letter {
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #8d602d;
+  color: white;
+
+  font-weight: bold;
+}
+
+.option.correct {
+  border-color: #c99a50;
+  background: #3a2919;
+}
+
+.option.wrong {
+  border-color: #9b4529;
+  background: #321b14;
+}
+
+.result-icon {
+  margin-left: auto;
+  font-size: 20px;
+}
+
+/* FEEDBACK */
+
+.feedback {
+  margin-top: 20px;
+  padding: 14px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.correct-feedback {
+  background: #3b2b18;
+  color: #e4b96b;
+  border: 1px solid #80602e;
+}
+
+.wrong-feedback {
+  background: #351b14;
+  color: #d98b65;
+  border: 1px solid #713a29;
+}
+
+/* TIP */
+
+.game-tip {
+  text-align: center;
+  color: #897b6b;
+  font-size: 13px;
+  margin-top: 25px;
+}
+
+/* RESULT */
+
+.result-card {
+  text-align: center;
+  padding: 60px 30px;
+}
+
+.trophy {
+  font-size: 65px;
+}
+
+.result-card h1 {
+  font-family: Georgia, serif;
+  color: #f4ead8;
+  font-size: 36px;
+}
+
+.result-text {
+  color: #a99a87;
+}
+
+.final-score {
+  color: #d99a43;
+  font-size: 55px;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+.message {
+  color: #d8c9b4;
+  font-size: 16px;
+}
+
+.restart-btn {
+  margin-top: 25px;
+
+  padding: 13px 30px;
+
+  background: #9d6426;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.restart-btn:hover {
+  background: #c87928;
+}
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+  .game-card {
+    padding: 22px;
+  }
+
+  .game-header h1 {
+    font-size: 26px;
+  }
+
+  .options {
+    grid-template-columns: 1fr;
+  }
+
+  .question-box h2 {
+    font-size: 18px;
+  }
+}

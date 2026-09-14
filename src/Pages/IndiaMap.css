@@ -1,0 +1,407 @@
+/* =========================================
+   INDIA HERITAGE MAP
+   ========================================= */
+
+.india-section {
+  width: 100%;
+  min-height: 100vh;
+  background: #0d0907;
+  color: #f1e7d7;
+  padding: 80px 7vw;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+.india-heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 55px;
+}
+
+.section-label {
+  display: block;
+  color: #c87b2e;
+  font-size: 12px;
+  letter-spacing: 6px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.india-heading h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(55px, 6vw, 90px);
+  font-weight: 400;
+  line-height: 0.95;
+  color: #f2e8d8;
+}
+
+.india-heading h1 em {
+  color: #c98431;
+  font-style: italic;
+}
+
+.india-heading p {
+  max-width: 800px;
+  margin-top: 32px;
+  color: #b9a99a;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.explore-number {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 10px;
+}
+
+.explore-number span {
+  color: #c9822f;
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+
+.explore-number small {
+  color: #9d8d7c;
+  font-size: 10px;
+  letter-spacing: 5px;
+  line-height: 1.8;
+}
+
+/* =========================================
+   MAIN LAYOUT
+   ========================================= */
+
+.india-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 390px;
+  gap: 55px;
+  align-items: stretch;
+}
+
+/* =========================================
+   MAP
+   ========================================= */
+
+.map-wrapper {
+  position: relative;
+  min-height: 650px;
+  background: #050403;
+  border: 1px solid #251b15;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.india-svg {
+  width: 100%;
+  height: 100%;
+  min-height: 650px;
+  display: block;
+}
+
+/* STATE SHAPES */
+
+.india-state {
+  fill: #241711;
+  stroke: #c9822f;
+  stroke-width: 0.7;
+  stroke-linejoin: round;
+  outline: none;
+
+  transition:
+    fill 0.25s ease,
+    stroke 0.25s ease,
+    opacity 0.25s ease;
+}
+
+.india-state:hover {
+  fill: #b9672d;
+  stroke: #f0c27b;
+  stroke-width: 1.4;
+  cursor: pointer;
+}
+
+.india-state.selected-state {
+  fill: #c46d30;
+  stroke: #f2d29d;
+  stroke-width: 1.5;
+}
+
+/* =========================================
+   MAP CENTER CARD
+   ========================================= */
+
+.map-instruction {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 260px;
+  padding: 25px 30px;
+
+  text-align: center;
+
+  background: rgba(25, 14, 10, 0.95);
+  border: 1px solid #9b621e;
+
+  pointer-events: none;
+}
+
+.map-instruction span {
+  color: #c9822f;
+  font-size: 9px;
+  letter-spacing: 5px;
+}
+
+.map-instruction h2 {
+  margin: 12px 0 5px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #f2e8d8;
+}
+
+.map-instruction p {
+  margin: 0;
+  color: #9e8e80;
+  font-size: 12px;
+}
+
+/* =========================================
+   LOADING
+   ========================================= */
+
+.map-loading {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #c9822f;
+  letter-spacing: 4px;
+  font-size: 11px;
+}
+
+/* =========================================
+   SIDE PANEL
+   ========================================= */
+
+.state-panel {
+  min-height: 650px;
+  box-sizing: border-box;
+
+  background: linear-gradient(
+    145deg,
+    #302015,
+    #1b100c
+  );
+
+  border: 1px solid #533822;
+
+  padding: 58px 55px;
+
+  position: relative;
+}
+
+.panel-label {
+  display: block;
+
+  color: #c9822f;
+  font-size: 10px;
+  letter-spacing: 5px;
+  font-weight: 600;
+
+  margin-bottom: 25px;
+}
+
+.state-panel h2 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 58px;
+  line-height: 0.95;
+  font-weight: 400;
+
+  color: #f1e7d7;
+}
+
+.country-name {
+  display: block;
+
+  margin-top: 20px;
+
+  color: #c9822f;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.panel-line {
+  height: 1px;
+  width: 100%;
+
+  background: #68472c;
+
+  margin: 40px 0;
+}
+
+.state-panel h3 {
+  margin: 0 0 25px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 400;
+  font-style: italic;
+
+  color: #d9a66c;
+}
+
+.state-panel p {
+  color: #b5a496;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+/* =========================================
+   CLOSE BUTTON
+   ========================================= */
+
+.close-button {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+
+  border: none;
+  background: transparent;
+
+  color: #bfa58d;
+
+  font-size: 32px;
+  font-weight: 200;
+
+  cursor: pointer;
+
+  transition: color 0.2s ease;
+}
+
+.close-button:hover {
+  color: #e3a65e;
+}
+
+/* =========================================
+   EXPLORE BUTTON
+   ========================================= */
+
+.explore-button {
+  width: 100%;
+
+  border: none;
+  background: #c56f32;
+
+  color: #fff3e5;
+
+  padding: 20px 18px;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.explore-button span {
+  font-size: 18px;
+}
+
+.explore-button:hover {
+  background: #d6813c;
+  transform: translateY(-2px);
+}
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+
+@media (max-width: 1100px) {
+  .india-section {
+    padding: 60px 35px;
+  }
+
+  .india-content {
+    grid-template-columns: 1fr;
+  }
+
+  .state-panel {
+    min-height: auto;
+  }
+
+  .map-wrapper {
+    min-height: 600px;
+  }
+
+  .india-svg {
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 700px) {
+  .india-section {
+    padding: 45px 20px;
+  }
+
+  .india-heading {
+    display: block;
+  }
+
+  .india-heading h1 {
+    font-size: 50px;
+  }
+
+  .explore-number {
+    margin-top: 30px;
+  }
+
+  .map-wrapper {
+    min-height: 450px;
+  }
+
+  .india-svg {
+    min-height: 450px;
+  }
+
+  .state-panel {
+    padding: 40px 30px;
+  }
+
+  .state-panel h2 {
+    font-size: 48px;
+  }
+
+  .map-instruction {
+    width: 200px;
+  }
+}
